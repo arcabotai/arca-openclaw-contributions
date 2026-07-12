@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T20:04:18+00:00",
+  "generatedAt": "2026-07-12T20:30:38+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "author": "arcabotai",
   "pullRequests": [
@@ -10,37 +10,33 @@
       "state": "open",
       "draft": false,
       "createdAt": "2026-07-12T05:47:08Z",
-      "updatedAt": "2026-07-12T12:04:57Z",
+      "updatedAt": "2026-07-12T20:30:22Z",
       "closedAt": null,
       "mergedAt": null,
-      "headSha": "cb0c282c196e165bf930e163ccd77aa21f22cf70",
-      "baseSha": "91175d0662af39f8bd0c2f33757cfc5172a40ec5",
+      "headSha": "64307952c5890217aa6a8459beb4e23af3d7590f",
+      "baseSha": "d287c9b414a03f665ea86016fd018b416ef07e94",
       "headOpenClawVersion": "2026.7.2",
       "baseOpenClawVersion": "2026.7.2",
       "labels": [
         "gateway",
-        "size: S",
-        "proof: sufficient",
-        "P2",
-        "rating: 🦐 gold shrimp",
-        "merge-risk: 🚨 security-boundary",
-        "status: ⏳ waiting on author"
+        "size: M",
+        "P2"
       ],
-      "ratingLabel": "🦐 gold shrimp",
-      "statusLabel": "⏳ waiting on author",
+      "ratingLabel": null,
+      "statusLabel": null,
       "priority": "P2",
       "clawSweeper": {
         "url": "https://github.com/openclaw/openclaw/pull/105029#issuecomment-4950160120",
-        "updatedAt": "2026-07-12T12:04:56Z",
-        "overall": "🦐 gold shrimp",
-        "proof": "🦞 diamond lobster ✨ media proof bonus",
-        "patchQuality": "🦐 gold shrimp",
-        "result": "needs maintainer review before merge."
+        "updatedAt": "2026-07-12T20:24:35Z",
+        "overall": null,
+        "proof": null,
+        "patchQuality": null,
+        "result": null
       },
       "arca": {
         "workStatus": "active repair",
         "workedOnVersion": "2026.7.2",
-        "currentWork": "Current-main repair is complete locally: committed deletion events now cover RPC deletion, cron cleanup, and plugin/harness rollback. Independent review, push, exact-head live proof, and ClawSweeper re-review remain."
+        "currentWork": "Current-main repair, 248 focused tests, full build, live Gateway/MCP proof, and all CI checks are complete on exact head. ClawSweeper re-review is pending."
       }
     },
     {
