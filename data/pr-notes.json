@@ -2,7 +2,7 @@
   "105029": {
     "workStatus": "active repair",
     "workedOnVersion": "2026.7.2",
-    "currentWork": "Cover cron continuation cleanup and plugin rollback revocation on current main; rerun focused tests and exact-head live proof."
+    "currentWork": "Current-main repair is complete locally: committed deletion events now cover RPC deletion, cron cleanup, and plugin/harness rollback. Independent review, push, exact-head live proof, and ClawSweeper re-review remain."
   },
   "104893": {
     "workStatus": "awaiting maintainer",
@@ -12,7 +12,7 @@
   "104492": {
     "workStatus": "active proof",
     "workedOnVersion": "2026.7.2",
-    "currentWork": "Refresh onto current main and add real gateway/channel lifecycle proof for backoff, give-up revival, and timed-out replacement."
+    "currentWork": "Rebased current patch onto current main and passed 342 focused gateway tests on macOS arm64. Real gateway/channel lifecycle proof remains before re-review."
   },
   "104192": {
     "workStatus": "closed upstream",
