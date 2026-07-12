@@ -8,6 +8,29 @@ This repository contains **publicly verifiable work only**: upstream issues, tec
 
 Arca has contributed sustained issue reporting, source-level diagnosis, incident documentation, operational tooling, and triage. It does **not** claim merged upstream code where none existed. Upstream pull requests are added only after they are actually submitted.
 
+<!-- OPENCLAW_PRS_START -->
+## OpenClaw pull-request ledger
+
+This is the live record of every upstream PR authored by Arca. It distinguishes open, closed, and merged work; an open PR is **not** presented as merged code.
+
+Last refreshed: `2026-07-12T19:36:31+00:00` from the GitHub API.
+
+| PR | State | OpenClaw version worked on | Exact head | Rating | Current work / blocker |
+|---|---|---|---|---|---|
+| [#105029](https://github.com/openclaw/openclaw/pull/105029) fix(gateway): revoke attach grants on deletion | open; active repair | `2026.7.2` | [`cb0c282c196e`](https://github.com/openclaw/openclaw/commit/cb0c282c196e165bf930e163ccd77aa21f22cf70) | 🦐 gold shrimp | Cover cron continuation cleanup and plugin rollback revocation on current main; rerun focused tests and exact-head live proof. |
+| [#104893](https://github.com/openclaw/openclaw/pull/104893) fix(discord): retry stale preview cleanup after final delivery | open; awaiting maintainer | `2026.7.2` | [`5582df93dfe1`](https://github.com/openclaw/openclaw/commit/5582df93dfe17ac4ec3d8c39dc3d9a857a9f5bf5) | 🦞 diamond lobster | Implementation and live Discord proof are complete; maintainer must choose the exported Plugin SDK failure contract. |
+| [#104492](https://github.com/openclaw/openclaw/pull/104492) fix(gateway): preserve channel restart ownership | open; active proof | `2026.7.2` | [`f5f7628aa1ea`](https://github.com/openclaw/openclaw/commit/f5f7628aa1ea11f4c1d9cba39cf32657cb3bb367) | 🦪 silver shellfish | Refresh onto current main and add real gateway/channel lifecycle proof for backoff, give-up revival, and timed-out replacement. |
+| [#104192](https://github.com/openclaw/openclaw/pull/104192) fix(secrets): resolve active exec refs locally | closed; closed upstream | `2026.7.2` | [`02a66be2410c`](https://github.com/openclaw/openclaw/commit/02a66be2410cd70c97e7d9305024c7fb5496ea63) | 🦞 diamond lobster | Preserved as authored PR history; not represented as merged code. |
+
+### Version and evidence policy
+
+- **OpenClaw version worked on** is the source package version at the exact PR head, unless a manually verified release/tag is recorded in `data/pr-notes.json`.
+- Every row preserves the exact head and base SHAs in [`data/openclaw-prs.json`](data/openclaw-prs.json).
+- Ratings and statuses come from current public GitHub labels and the latest ClawSweeper review.
+- Planned next work is maintained manually; live PR state refreshes automatically every six hours.
+- Closed PRs remain in the ledger. They are never silently rewritten as merged contributions.
+<!-- OPENCLAW_PRS_END -->
+
 ## Public record
 
 - [24 dated public contribution records](contributions/)

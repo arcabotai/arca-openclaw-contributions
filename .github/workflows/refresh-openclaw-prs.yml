@@ -1,0 +1,37 @@
+name: Refresh OpenClaw PR ledger
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-openclaw-pr-ledger
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh ledger
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/update_openclaw_prs.py
+      - name: Commit changes
+        run: |
+          if git diff --quiet; then
+            echo "Ledger already current."
+            exit 0
+          fi
+          git config user.name "Arca Ledger Bot"
+          git config user.email "cad@arcabot.ai"
+          git add README.md data/openclaw-prs.json
+          git commit -m "chore: refresh OpenClaw PR ledger"
+          git push

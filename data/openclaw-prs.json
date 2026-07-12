@@ -1,0 +1,168 @@
+{
+  "generatedAt": "2026-07-12T19:36:31+00:00",
+  "source": "https://github.com/openclaw/openclaw",
+  "author": "arcabotai",
+  "pullRequests": [
+    {
+      "number": 105029,
+      "title": "fix(gateway): revoke attach grants on deletion",
+      "url": "https://github.com/openclaw/openclaw/pull/105029",
+      "state": "open",
+      "draft": false,
+      "createdAt": "2026-07-12T05:47:08Z",
+      "updatedAt": "2026-07-12T12:04:57Z",
+      "closedAt": null,
+      "mergedAt": null,
+      "headSha": "cb0c282c196e165bf930e163ccd77aa21f22cf70",
+      "baseSha": "91175d0662af39f8bd0c2f33757cfc5172a40ec5",
+      "headOpenClawVersion": "2026.7.2",
+      "baseOpenClawVersion": "2026.7.2",
+      "labels": [
+        "gateway",
+        "size: S",
+        "proof: sufficient",
+        "P2",
+        "rating: 🦐 gold shrimp",
+        "merge-risk: 🚨 security-boundary",
+        "status: ⏳ waiting on author"
+      ],
+      "ratingLabel": "🦐 gold shrimp",
+      "statusLabel": "⏳ waiting on author",
+      "priority": "P2",
+      "clawSweeper": {
+        "url": "https://github.com/openclaw/openclaw/pull/105029#issuecomment-4950160120",
+        "updatedAt": "2026-07-12T12:04:56Z",
+        "overall": "🦐 gold shrimp",
+        "proof": "🦞 diamond lobster ✨ media proof bonus",
+        "patchQuality": "🦐 gold shrimp",
+        "result": "needs maintainer review before merge."
+      },
+      "arca": {
+        "workStatus": "active repair",
+        "workedOnVersion": "2026.7.2",
+        "currentWork": "Cover cron continuation cleanup and plugin rollback revocation on current main; rerun focused tests and exact-head live proof."
+      }
+    },
+    {
+      "number": 104893,
+      "title": "fix(discord): retry stale preview cleanup after final delivery",
+      "url": "https://github.com/openclaw/openclaw/pull/104893",
+      "state": "open",
+      "draft": false,
+      "createdAt": "2026-07-12T02:13:43Z",
+      "updatedAt": "2026-07-12T08:38:13Z",
+      "closedAt": null,
+      "mergedAt": null,
+      "headSha": "5582df93dfe17ac4ec3d8c39dc3d9a857a9f5bf5",
+      "baseSha": "5e064bb7b4b7b32df61e9af33da69dfe725de99b",
+      "headOpenClawVersion": "2026.7.2",
+      "baseOpenClawVersion": "2026.7.2",
+      "labels": [
+        "channel: discord",
+        "size: S",
+        "proof: sufficient",
+        "P2",
+        "rating: 🦞 diamond lobster",
+        "merge-risk: 🚨 compatibility",
+        "status: 👀 ready for maintainer look"
+      ],
+      "ratingLabel": "🦞 diamond lobster",
+      "statusLabel": "👀 ready for maintainer look",
+      "priority": "P2",
+      "clawSweeper": {
+        "url": "https://github.com/openclaw/openclaw/pull/104893#issuecomment-4949668354",
+        "updatedAt": "2026-07-12T08:38:11Z",
+        "overall": "🦞 diamond lobster",
+        "proof": "🦞 diamond lobster ✨ media proof bonus",
+        "patchQuality": "🦞 diamond lobster",
+        "result": "ready for maintainer review."
+      },
+      "arca": {
+        "workStatus": "awaiting maintainer",
+        "workedOnVersion": "2026.7.2",
+        "currentWork": "Implementation and live Discord proof are complete; maintainer must choose the exported Plugin SDK failure contract."
+      }
+    },
+    {
+      "number": 104492,
+      "title": "fix(gateway): preserve channel restart ownership",
+      "url": "https://github.com/openclaw/openclaw/pull/104492",
+      "state": "open",
+      "draft": false,
+      "createdAt": "2026-07-11T13:33:32Z",
+      "updatedAt": "2026-07-11T22:50:56Z",
+      "closedAt": null,
+      "mergedAt": null,
+      "headSha": "f5f7628aa1ea11f4c1d9cba39cf32657cb3bb367",
+      "baseSha": "af1505df659f80893829be5c96e6e9918a9fb42d",
+      "headOpenClawVersion": "2026.7.2",
+      "baseOpenClawVersion": "2026.7.2",
+      "labels": [
+        "gateway",
+        "size: S",
+        "P1",
+        "rating: 🦪 silver shellfish",
+        "merge-risk: 🚨 compatibility",
+        "merge-risk: 🚨 availability",
+        "status: 📣 needs proof"
+      ],
+      "ratingLabel": "🦪 silver shellfish",
+      "statusLabel": "📣 needs proof",
+      "priority": "P1",
+      "clawSweeper": {
+        "url": "https://github.com/openclaw/openclaw/pull/104492#issuecomment-4946284603",
+        "updatedAt": "2026-07-11T19:45:35Z",
+        "overall": "🦪 silver shellfish",
+        "proof": "🦪 silver shellfish",
+        "patchQuality": "🐚 platinum hermit",
+        "result": "blocked until real behavior proof from a real setup is added."
+      },
+      "arca": {
+        "workStatus": "active proof",
+        "workedOnVersion": "2026.7.2",
+        "currentWork": "Refresh onto current main and add real gateway/channel lifecycle proof for backoff, give-up revival, and timed-out replacement."
+      }
+    },
+    {
+      "number": 104192,
+      "title": "fix(secrets): resolve active exec refs locally",
+      "url": "https://github.com/openclaw/openclaw/pull/104192",
+      "state": "closed",
+      "draft": false,
+      "createdAt": "2026-07-11T05:31:54Z",
+      "updatedAt": "2026-07-12T09:08:56Z",
+      "closedAt": "2026-07-12T09:08:56Z",
+      "mergedAt": null,
+      "headSha": "02a66be2410cd70c97e7d9305024c7fb5496ea63",
+      "baseSha": "aa12e71de7b4ef80f6275b9c4a7d3485d6f250e0",
+      "headOpenClawVersion": "2026.7.2",
+      "baseOpenClawVersion": "2026.7.2",
+      "labels": [
+        "cli",
+        "size: M",
+        "proof: sufficient",
+        "P2",
+        "rating: 🦞 diamond lobster",
+        "merge-risk: 🚨 auth-provider",
+        "merge-risk: 🚨 security-boundary",
+        "status: 👀 ready for maintainer look"
+      ],
+      "ratingLabel": "🦞 diamond lobster",
+      "statusLabel": "👀 ready for maintainer look",
+      "priority": "P2",
+      "clawSweeper": {
+        "url": "https://github.com/openclaw/openclaw/pull/104192#issuecomment-4942793304",
+        "updatedAt": "2026-07-11T19:20:31Z",
+        "overall": "🦞 diamond lobster",
+        "proof": "🦞 diamond lobster",
+        "patchQuality": "🦞 diamond lobster",
+        "result": "ready for maintainer review."
+      },
+      "arca": {
+        "workStatus": "closed upstream",
+        "workedOnVersion": "2026.7.2",
+        "currentWork": "Preserved as authored PR history; not represented as merged code."
+      }
+    }
+  ]
+}

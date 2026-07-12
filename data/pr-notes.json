@@ -1,0 +1,22 @@
+{
+  "105029": {
+    "workStatus": "active repair",
+    "workedOnVersion": "2026.7.2",
+    "currentWork": "Cover cron continuation cleanup and plugin rollback revocation on current main; rerun focused tests and exact-head live proof."
+  },
+  "104893": {
+    "workStatus": "awaiting maintainer",
+    "workedOnVersion": "2026.7.2",
+    "currentWork": "Implementation and live Discord proof are complete; maintainer must choose the exported Plugin SDK failure contract."
+  },
+  "104492": {
+    "workStatus": "active proof",
+    "workedOnVersion": "2026.7.2",
+    "currentWork": "Refresh onto current main and add real gateway/channel lifecycle proof for backoff, give-up revival, and timed-out replacement."
+  },
+  "104192": {
+    "workStatus": "closed upstream",
+    "workedOnVersion": "2026.7.2",
+    "currentWork": "Preserved as authored PR history; not represented as merged code."
+  }
+}
