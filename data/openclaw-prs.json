@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T21:22:02+00:00",
+  "generatedAt": "2026-07-12T21:52:33+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "author": "arcabotai",
   "pullRequests": [
@@ -10,7 +10,7 @@
       "state": "open",
       "draft": false,
       "createdAt": "2026-07-12T05:47:08Z",
-      "updatedAt": "2026-07-12T21:21:42Z",
+      "updatedAt": "2026-07-12T21:52:23Z",
       "closedAt": null,
       "mergedAt": null,
       "headSha": "fb137a71e7288e7e166a717bfec8ae8f2fecf562",
@@ -20,23 +20,26 @@
       "labels": [
         "gateway",
         "size: M",
-        "P2"
+        "P2",
+        "rating: 🦐 gold shrimp",
+        "merge-risk: 🚨 security-boundary",
+        "status: 📣 needs proof"
       ],
-      "ratingLabel": null,
-      "statusLabel": null,
+      "ratingLabel": "🦐 gold shrimp",
+      "statusLabel": "📣 needs proof",
       "priority": "P2",
       "clawSweeper": {
         "url": "https://github.com/openclaw/openclaw/pull/105029#issuecomment-4950160120",
-        "updatedAt": "2026-07-12T21:14:46Z",
-        "overall": null,
-        "proof": null,
-        "patchQuality": null,
-        "result": null
+        "updatedAt": "2026-07-12T21:30:15Z",
+        "overall": "🦐 gold shrimp",
+        "proof": "🦐 gold shrimp",
+        "patchQuality": "🦞 diamond lobster",
+        "result": "blocked until stronger real behavior proof is added."
       },
       "arca": {
         "workStatus": "active repair",
         "workedOnVersion": "2026.7.2",
-        "currentWork": "Independent review found and current head fixed canonical-grant survival for raw legacy alias-only rows. Current-head build/type/lint/security/boundary/test shards pass; one unrelated Control UI dead-export check fails on current base. Exact-head live proof awaits Mac runner recovery; ClawSweeper re-review is running."
+        "currentWork": "Current head fixed canonical-grant survival for raw legacy alias-only rows. Exact-head portable Gateway/MCP proof passes: deleted bearer 200→401, unrelated bearer remains 200. Relevant build/type/lint/security/boundary/test shards pass; one unrelated current-base Control UI dead-export check fails. ClawSweeper re-review is running."
       }
     },
     {

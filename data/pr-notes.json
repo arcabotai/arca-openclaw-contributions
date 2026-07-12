@@ -2,7 +2,7 @@
   "105029": {
     "workStatus": "active repair",
     "workedOnVersion": "2026.7.2",
-    "currentWork": "Independent review found and current head fixed canonical-grant survival for raw legacy alias-only rows. Current-head build/type/lint/security/boundary/test shards pass; one unrelated Control UI dead-export check fails on current base. Exact-head live proof awaits Mac runner recovery; ClawSweeper re-review is running."
+    "currentWork": "Current head fixed canonical-grant survival for raw legacy alias-only rows. Exact-head portable Gateway/MCP proof passes: deleted bearer 200→401, unrelated bearer remains 200. Relevant build/type/lint/security/boundary/test shards pass; one unrelated current-base Control UI dead-export check fails. ClawSweeper re-review is running."
   },
   "104893": {
     "workStatus": "awaiting maintainer",
