@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T04:03:35+00:00",
+  "generatedAt": "2026-07-13T09:49:41+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "author": "arcabotai",
   "pullRequests": [
@@ -50,7 +50,7 @@
       "state": "open",
       "draft": false,
       "createdAt": "2026-07-12T02:13:43Z",
-      "updatedAt": "2026-07-13T03:59:00Z",
+      "updatedAt": "2026-07-13T04:05:20Z",
       "closedAt": null,
       "mergedAt": null,
       "headSha": "db2d6db03352a634a9650001069656c82ac102d4",
@@ -61,22 +61,21 @@
         "channel: discord",
         "channel: mattermost",
         "size: M",
-        "proof: sufficient",
         "P2",
-        "rating: 🦞 diamond lobster",
+        "rating: 🦐 gold shrimp",
         "merge-risk: 🚨 compatibility",
-        "status: 👀 ready for maintainer look"
+        "status: 📣 needs proof"
       ],
-      "ratingLabel": "🦞 diamond lobster",
-      "statusLabel": "👀 ready for maintainer look",
+      "ratingLabel": "🦐 gold shrimp",
+      "statusLabel": "📣 needs proof",
       "priority": "P2",
       "clawSweeper": {
         "url": "https://github.com/openclaw/openclaw/pull/104893#issuecomment-4949668354",
-        "updatedAt": "2026-07-12T08:38:11Z",
-        "overall": "🦞 diamond lobster",
-        "proof": "🦞 diamond lobster ✨ media proof bonus",
+        "updatedAt": "2026-07-13T04:05:17Z",
+        "overall": "🦐 gold shrimp",
+        "proof": "🦐 gold shrimp",
         "patchQuality": "🦞 diamond lobster",
-        "result": "ready for maintainer review."
+        "result": "blocked until stronger real behavior proof is added."
       },
       "arca": {
         "workStatus": "awaiting maintainer",
