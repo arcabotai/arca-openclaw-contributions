@@ -1,8 +1,32 @@
 {
-  "generatedAt": "2026-07-13T15:14:25+00:00",
+  "generatedAt": "2026-07-14T08:29:48+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "author": "arcabotai",
   "pullRequests": [
+    {
+      "number": 107276,
+      "title": "fix(memory-core): preserve canonical embedding cache on migration",
+      "url": "https://github.com/openclaw/openclaw/pull/107276",
+      "state": "open",
+      "draft": false,
+      "createdAt": "2026-07-14T08:00:54Z",
+      "updatedAt": "2026-07-14T08:01:06Z",
+      "closedAt": null,
+      "mergedAt": null,
+      "headSha": "3072762c82526c0fce27804c6b3839f0002db49a",
+      "baseSha": "202dea59bdf5d0bf3bb1b50424ee8a68af9efae8",
+      "headOpenClawVersion": "2026.7.2",
+      "baseOpenClawVersion": "2026.7.2",
+      "labels": [
+        "extensions: memory-core",
+        "size: S"
+      ],
+      "ratingLabel": null,
+      "statusLabel": null,
+      "priority": null,
+      "clawSweeper": null,
+      "arca": {}
+    },
     {
       "number": 105029,
       "title": "fix(gateway): revoke attach grants on deletion",
