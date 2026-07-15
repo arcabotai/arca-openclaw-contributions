@@ -1,8 +1,32 @@
 {
-  "generatedAt": "2026-07-14T14:16:26+00:00",
+  "generatedAt": "2026-07-15T03:39:28+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "author": "arcabotai",
   "pullRequests": [
+    {
+      "number": 107963,
+      "title": "fix(update): reject npm redacted global root paths",
+      "url": "https://github.com/openclaw/openclaw/pull/107963",
+      "state": "open",
+      "draft": false,
+      "createdAt": "2026-07-15T03:25:34Z",
+      "updatedAt": "2026-07-15T03:26:06Z",
+      "closedAt": null,
+      "mergedAt": null,
+      "headSha": "a4e3041b8660fadcd1615e5d15b30d30e859e666",
+      "baseSha": "30738a3c3ba3178c66609460bb717e5b6e0f338d",
+      "headOpenClawVersion": "2026.7.2",
+      "baseOpenClawVersion": "2026.7.2",
+      "labels": [
+        "size: S",
+        "triage: needs-pr-context"
+      ],
+      "ratingLabel": null,
+      "statusLabel": null,
+      "priority": null,
+      "clawSweeper": null,
+      "arca": {}
+    },
     {
       "number": 107276,
       "title": "fix(memory-core): preserve canonical embedding cache on migration",
