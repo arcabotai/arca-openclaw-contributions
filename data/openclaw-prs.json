@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T03:41:43+00:00",
+  "generatedAt": "2026-07-16T08:36:24+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "author": "arcabotai",
   "pullRequests": [
@@ -10,7 +10,7 @@
       "state": "open",
       "draft": false,
       "createdAt": "2026-07-15T03:25:34Z",
-      "updatedAt": "2026-07-16T02:22:33Z",
+      "updatedAt": "2026-07-16T06:21:02Z",
       "closedAt": null,
       "mergedAt": null,
       "headSha": "a4e3041b8660fadcd1615e5d15b30d30e859e666",
@@ -19,12 +19,23 @@
       "baseOpenClawVersion": "2026.7.2",
       "labels": [
         "size: S",
+        "P2",
+        "rating: 🦪 silver shellfish",
+        "merge-risk: 🚨 compatibility",
+        "status: 📣 needs proof",
         "triage: needs-pr-context"
       ],
-      "ratingLabel": null,
-      "statusLabel": null,
-      "priority": null,
-      "clawSweeper": null,
+      "ratingLabel": "🦪 silver shellfish",
+      "statusLabel": "📣 needs proof",
+      "priority": "P2",
+      "clawSweeper": {
+        "url": "https://github.com/openclaw/openclaw/pull/107963#issuecomment-4988834256",
+        "updatedAt": "2026-07-16T06:21:01Z",
+        "overall": "🦪 silver shellfish",
+        "proof": "🦪 silver shellfish",
+        "patchQuality": "🦐 gold shrimp",
+        "result": "blocked until real behavior proof from a real setup is added."
+      },
       "arca": {}
     },
     {
