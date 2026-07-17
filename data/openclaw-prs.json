@@ -1,10 +1,23 @@
 {
-  "generatedAt": "2026-07-16T08:36:24+00:00",
+  "generatedAt": "2026-07-17T13:45:57+00:00",
   "source": "https://github.com/openclaw/openclaw",
-  "author": "arcabotai",
+  "authors": [
+    {
+      "login": "arcabotai",
+      "role": "Arca agent identity",
+      "since": null
+    },
+    {
+      "login": "felirami",
+      "role": "Arca founder",
+      "since": "2026-02-12"
+    }
+  ],
   "pullRequests": [
     {
       "number": 107963,
+      "author": "arcabotai",
+      "identityRole": "Arca agent identity",
       "title": "fix(update): reject npm redacted global root paths",
       "url": "https://github.com/openclaw/openclaw/pull/107963",
       "state": "open",
@@ -39,7 +52,61 @@
       "arca": {}
     },
     {
+      "number": 107901,
+      "author": "felirami",
+      "identityRole": "Arca founder",
+      "title": "fix(update): reject npm redacted global root paths",
+      "url": "https://github.com/openclaw/openclaw/pull/107901",
+      "state": "closed",
+      "draft": false,
+      "createdAt": "2026-07-15T01:40:00Z",
+      "updatedAt": "2026-07-15T03:27:44Z",
+      "closedAt": "2026-07-15T03:27:44Z",
+      "mergedAt": null,
+      "headSha": "1dab58ea4d0a61221c9d7884b5a8bc9d1c043511",
+      "baseSha": "c69486deae5b08d5da0b05b7be6b07400dd7d072",
+      "headOpenClawVersion": "2026.7.2",
+      "baseOpenClawVersion": "2026.7.2",
+      "labels": [
+        "size: XS",
+        "triage: needs-pr-context"
+      ],
+      "ratingLabel": null,
+      "statusLabel": null,
+      "priority": null,
+      "clawSweeper": null,
+      "arca": {}
+    },
+    {
+      "number": 107304,
+      "author": "felirami",
+      "identityRole": "Arca founder",
+      "title": "fix(zai): Coding Plan chat turns always fail with fake rate-limit when system prompt carries OpenClaw signature line",
+      "url": "https://github.com/openclaw/openclaw/pull/107304",
+      "state": "closed",
+      "draft": false,
+      "createdAt": "2026-07-14T08:37:46Z",
+      "updatedAt": "2026-07-15T02:30:52Z",
+      "closedAt": "2026-07-14T09:40:22Z",
+      "mergedAt": null,
+      "headSha": "179050b9ef194efc7bc68b3d5375233600f09b8f",
+      "baseSha": "88e5dc121934b3573470242ff2aecff67a40c0bd",
+      "headOpenClawVersion": "2026.7.2",
+      "baseOpenClawVersion": "2026.7.2",
+      "labels": [
+        "size: M",
+        "extensions: zai"
+      ],
+      "ratingLabel": null,
+      "statusLabel": null,
+      "priority": null,
+      "clawSweeper": null,
+      "arca": {}
+    },
+    {
       "number": 107276,
+      "author": "arcabotai",
+      "identityRole": "Arca agent identity",
       "title": "fix(memory-core): preserve canonical embedding cache on migration",
       "url": "https://github.com/openclaw/openclaw/pull/107276",
       "state": "closed",
@@ -63,7 +130,48 @@
       "arca": {}
     },
     {
+      "number": 107243,
+      "author": "felirami",
+      "identityRole": "Arca founder",
+      "title": "fix(memory-core): preserve canonical cache rows during legacy migration",
+      "url": "https://github.com/openclaw/openclaw/pull/107243",
+      "state": "merged",
+      "draft": false,
+      "createdAt": "2026-07-14T07:13:08Z",
+      "updatedAt": "2026-07-14T16:40:40Z",
+      "closedAt": "2026-07-14T16:40:36Z",
+      "mergedAt": "2026-07-14T16:40:36Z",
+      "headSha": "e35ddb3ce365c07419365d5b799bbb45b65ac38e",
+      "baseSha": "bb6874fddfac2bd77748e86ddd6cf8579110c2b4",
+      "headOpenClawVersion": "2026.7.2",
+      "baseOpenClawVersion": "2026.7.2",
+      "labels": [
+        "extensions: memory-core",
+        "size: S",
+        "proof: sufficient",
+        "P0",
+        "rating: 🦐 gold shrimp",
+        "merge-risk: 🚨 compatibility",
+        "merge-risk: 🚨 availability",
+        "status: ⏳ waiting on author"
+      ],
+      "ratingLabel": "🦐 gold shrimp",
+      "statusLabel": "⏳ waiting on author",
+      "priority": "P0",
+      "clawSweeper": {
+        "url": "https://github.com/openclaw/openclaw/pull/107243#issuecomment-4968977642",
+        "updatedAt": "2026-07-14T12:31:36Z",
+        "overall": "🦐 gold shrimp",
+        "proof": "🦞 diamond lobster",
+        "patchQuality": "🦐 gold shrimp",
+        "result": "needs maintainer review before merge."
+      },
+      "arca": {}
+    },
+    {
       "number": 105029,
+      "author": "arcabotai",
+      "identityRole": "Arca agent identity",
       "title": "fix(gateway): revoke attach grants on deletion",
       "url": "https://github.com/openclaw/openclaw/pull/105029",
       "state": "open",
@@ -104,6 +212,8 @@
     },
     {
       "number": 104893,
+      "author": "arcabotai",
+      "identityRole": "Arca agent identity",
       "title": "fix(discord): retry stale preview cleanup after final delivery",
       "url": "https://github.com/openclaw/openclaw/pull/104893",
       "state": "merged",
@@ -144,6 +254,8 @@
     },
     {
       "number": 104492,
+      "author": "arcabotai",
+      "identityRole": "Arca agent identity",
       "title": "fix(gateway): preserve channel restart ownership",
       "url": "https://github.com/openclaw/openclaw/pull/104492",
       "state": "open",
@@ -184,6 +296,8 @@
     },
     {
       "number": 104192,
+      "author": "arcabotai",
+      "identityRole": "Arca agent identity",
       "title": "fix(secrets): resolve active exec refs locally",
       "url": "https://github.com/openclaw/openclaw/pull/104192",
       "state": "closed",

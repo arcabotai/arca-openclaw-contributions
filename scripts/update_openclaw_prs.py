@@ -17,7 +17,16 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 REPO = "openclaw/openclaw"
-AUTHOR = "arcabotai"
+AUTHOR_SCOPES = {
+    "arcabotai": {
+        "role": "Arca agent identity",
+        "since": None,
+    },
+    "felirami": {
+        "role": "Arca founder",
+        "since": "2026-02-12",
+    },
+}
 START = "<!-- OPENCLAW_PRS_START -->"
 END = "<!-- OPENCLAW_PRS_END -->"
 API = "https://api.github.com"
@@ -95,9 +104,17 @@ def latest_clawsweeper_comment(number: int) -> dict | None:
 def collect() -> list[dict]:
     notes_path = ROOT / "data" / "pr-notes.json"
     notes = json.loads(notes_path.read_text()) if notes_path.exists() else {}
-    query = urllib.parse.quote(f"repo:{REPO} type:pr author:{AUTHOR}")
-    search = request_json(f"/search/issues?q={query}&per_page=100&sort=created&order=desc")
-    authored = search.get("items", [])
+    authored_by_number = {}
+    for author, scope in AUTHOR_SCOPES.items():
+        terms = f"repo:{REPO} type:pr author:{author}"
+        if scope["since"]:
+            terms += f" created:>={scope['since']}"
+        query = urllib.parse.quote(terms)
+        search = request_json(f"/search/issues?q={query}&per_page=100&sort=created&order=desc")
+        for item in search.get("items", []):
+            authored_by_number[item["number"]] = item
+
+    authored = authored_by_number.values()
     rows = []
     for pr in authored:
         number = pr["number"]
@@ -109,8 +126,12 @@ def collect() -> list[dict]:
         state = "merged" if merged else details["state"]
         review = latest_clawsweeper_comment(number)
         note = notes.get(str(number), {})
+        author = details.get("user", {}).get("login", "unknown")
+        identity_role = AUTHOR_SCOPES.get(author, {}).get("role", "Arca-associated identity")
         rows.append({
             "number": number,
+            "author": author,
+            "identityRole": identity_role,
             "title": details["title"],
             "url": details["html_url"],
             "state": state,
@@ -138,12 +159,12 @@ def render(rows: list[dict], generated_at: str) -> str:
         START,
         "## OpenClaw pull-request ledger",
         "",
-        "This is the live record of every upstream PR authored by Arca. It distinguishes open, closed, and merged work; an open PR is **not** presented as merged code.",
+        "This is the live record of upstream PRs authored through Arca's designated GitHub identities. It distinguishes open, closed, and merged work; an open PR is **not** presented as merged code.",
         "",
         f"Last refreshed: `{generated_at}` from the GitHub API.",
         "",
-        "| PR | State | OpenClaw version worked on | Exact head | Rating | Current work / blocker |",
-        "|---|---|---|---|---|---|",
+        "| PR | Author | State | OpenClaw version worked on | Exact head | Rating | Current work / blocker |",
+        "|---|---|---|---|---|---|---|",
     ]
     for row in rows:
         note = row.get("arca", {})
@@ -154,7 +175,7 @@ def render(rows: list[dict], generated_at: str) -> str:
         rating = row.get("ratingLabel") or "not rated"
         blocker = note.get("currentWork") or row.get("statusLabel") or "—"
         lines.append(
-            f"| [#{row['number']}]({row['url']}) {row['title']} | {state} | `{version}` | "
+            f"| [#{row['number']}]({row['url']}) {row['title']} | [@{row['author']}](https://github.com/{row['author']}) | {state} | `{version}` | "
             f"[`{short(row['headSha'])}`](https://github.com/{REPO}/commit/{row['headSha']}) | {rating} | {blocker} |"
         )
     lines.extend([
@@ -164,6 +185,7 @@ def render(rows: list[dict], generated_at: str) -> str:
         "- **OpenClaw version worked on** is the source package version at the exact PR head, unless a manually verified release/tag is recorded in `data/pr-notes.json`.",
         "- Every row preserves the exact head and base SHAs in [`data/openclaw-prs.json`](data/openclaw-prs.json).",
         "- Ratings and statuses come from current public GitHub labels and the latest ClawSweeper review.",
+        "- `@arcabotai` is Arca's agent identity. `@felirami` is included only from Arca's operating period beginning 2026-02-12; earlier personal work is not retroactively attributed to Arca.",
         "- Planned next work is maintained manually; live PR state refreshes automatically every six hours.",
         "- Closed PRs remain in the ledger. They are never silently rewritten as merged contributions.",
         END,
@@ -184,7 +206,16 @@ def main() -> None:
         generated_at = previous.get("generatedAt") or datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     else:
         generated_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
-    data = {"generatedAt": generated_at, "source": f"https://github.com/{REPO}", "author": AUTHOR, "pullRequests": rows}
+    identities = [
+        {"login": login, **scope}
+        for login, scope in AUTHOR_SCOPES.items()
+    ]
+    data = {
+        "generatedAt": generated_at,
+        "source": f"https://github.com/{REPO}",
+        "authors": identities,
+        "pullRequests": rows,
+    }
     data_path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
 
     readme_path = ROOT / "README.md"
