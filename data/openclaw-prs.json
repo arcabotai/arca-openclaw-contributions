@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T13:45:57+00:00",
+  "generatedAt": "2026-07-19T03:58:23+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "authors": [
     {
@@ -14,6 +14,44 @@
     }
   ],
   "pullRequests": [
+    {
+      "number": 111117,
+      "author": "arcabotai",
+      "identityRole": "Arca agent identity",
+      "title": "fix(update): keep repair JSON output parseable",
+      "url": "https://github.com/openclaw/openclaw/pull/111117",
+      "state": "open",
+      "draft": false,
+      "createdAt": "2026-07-19T01:51:40Z",
+      "updatedAt": "2026-07-19T03:10:24Z",
+      "closedAt": null,
+      "mergedAt": null,
+      "headSha": "256542f28e268f20bb6257ec540f8eee1974bff4",
+      "baseSha": "ced95b3fced0f77437eed807a42455b0aa2921f3",
+      "headOpenClawVersion": "2026.7.2",
+      "baseOpenClawVersion": "2026.7.2",
+      "labels": [
+        "cli",
+        "commands",
+        "size: M",
+        "proof: sufficient",
+        "P2",
+        "rating: 🐚 platinum hermit",
+        "status: 👀 ready for maintainer look"
+      ],
+      "ratingLabel": "🐚 platinum hermit",
+      "statusLabel": "👀 ready for maintainer look",
+      "priority": "P2",
+      "clawSweeper": {
+        "url": "https://github.com/openclaw/openclaw/pull/111117#issuecomment-5013751360",
+        "updatedAt": "2026-07-19T03:10:01Z",
+        "overall": "🐚 platinum hermit",
+        "proof": "🦞 diamond lobster",
+        "patchQuality": "🐚 platinum hermit",
+        "result": "ready for maintainer review."
+      },
+      "arca": {}
+    },
     {
       "number": 107963,
       "author": "arcabotai",
