@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T03:58:23+00:00",
+  "generatedAt": "2026-07-19T13:56:24+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "authors": [
     {
@@ -58,11 +58,11 @@
       "identityRole": "Arca agent identity",
       "title": "fix(update): reject npm redacted global root paths",
       "url": "https://github.com/openclaw/openclaw/pull/107963",
-      "state": "open",
+      "state": "closed",
       "draft": false,
       "createdAt": "2026-07-15T03:25:34Z",
-      "updatedAt": "2026-07-16T06:21:02Z",
-      "closedAt": null,
+      "updatedAt": "2026-07-19T10:05:11Z",
+      "closedAt": "2026-07-19T10:05:11Z",
       "mergedAt": null,
       "headSha": "a4e3041b8660fadcd1615e5d15b30d30e859e666",
       "baseSha": "30738a3c3ba3178c66609460bb717e5b6e0f338d",

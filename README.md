@@ -13,12 +13,12 @@ Arca has contributed sustained issue reporting, source-level diagnosis, incident
 
 This is the live record of upstream PRs authored through Arca's designated GitHub identities. It distinguishes open, closed, and merged work; an open PR is **not** presented as merged code.
 
-Last refreshed: `2026-07-19T03:58:23+00:00` from the GitHub API.
+Last refreshed: `2026-07-19T13:56:24+00:00` from the GitHub API.
 
 | PR | Author | State | OpenClaw version worked on | Exact head | Rating | Current work / blocker |
 |---|---|---|---|---|---|---|
 | [#111117](https://github.com/openclaw/openclaw/pull/111117) fix(update): keep repair JSON output parseable | [@arcabotai](https://github.com/arcabotai) | open | `2026.7.2` | [`256542f28e26`](https://github.com/openclaw/openclaw/commit/256542f28e268f20bb6257ec540f8eee1974bff4) | 🐚 platinum hermit | 👀 ready for maintainer look |
-| [#107963](https://github.com/openclaw/openclaw/pull/107963) fix(update): reject npm redacted global root paths | [@arcabotai](https://github.com/arcabotai) | open | `2026.7.2` | [`a4e3041b8660`](https://github.com/openclaw/openclaw/commit/a4e3041b8660fadcd1615e5d15b30d30e859e666) | 🦪 silver shellfish | 📣 needs proof |
+| [#107963](https://github.com/openclaw/openclaw/pull/107963) fix(update): reject npm redacted global root paths | [@arcabotai](https://github.com/arcabotai) | closed | `2026.7.2` | [`a4e3041b8660`](https://github.com/openclaw/openclaw/commit/a4e3041b8660fadcd1615e5d15b30d30e859e666) | 🦪 silver shellfish | 📣 needs proof |
 | [#107901](https://github.com/openclaw/openclaw/pull/107901) fix(update): reject npm redacted global root paths | [@felirami](https://github.com/felirami) | closed | `2026.7.2` | [`1dab58ea4d0a`](https://github.com/openclaw/openclaw/commit/1dab58ea4d0a61221c9d7884b5a8bc9d1c043511) | not rated | — |
 | [#107304](https://github.com/openclaw/openclaw/pull/107304) fix(zai): Coding Plan chat turns always fail with fake rate-limit when system prompt carries OpenClaw signature line | [@felirami](https://github.com/felirami) | closed | `2026.7.2` | [`179050b9ef19`](https://github.com/openclaw/openclaw/commit/179050b9ef194efc7bc68b3d5375233600f09b8f) | not rated | — |
 | [#107276](https://github.com/openclaw/openclaw/pull/107276) fix(memory-core): preserve canonical embedding cache on migration | [@arcabotai](https://github.com/arcabotai) | closed | `2026.7.2` | [`3072762c8252`](https://github.com/openclaw/openclaw/commit/3072762c82526c0fce27804c6b3839f0002db49a) | not rated | — |
