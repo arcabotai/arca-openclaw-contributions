@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T19:35:15+00:00",
+  "generatedAt": "2026-07-22T03:50:35+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "authors": [
     {
@@ -215,7 +215,7 @@
       "state": "open",
       "draft": false,
       "createdAt": "2026-07-12T05:47:08Z",
-      "updatedAt": "2026-07-12T22:07:38Z",
+      "updatedAt": "2026-07-21T19:55:14Z",
       "closedAt": null,
       "mergedAt": null,
       "headSha": "fb137a71e7288e7e166a717bfec8ae8f2fecf562",
