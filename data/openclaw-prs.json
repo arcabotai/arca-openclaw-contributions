@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T09:19:29+00:00",
+  "generatedAt": "2026-07-31T14:38:53+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "authors": [
     {
@@ -299,7 +299,7 @@
       "state": "open",
       "draft": false,
       "createdAt": "2026-07-11T13:33:32Z",
-      "updatedAt": "2026-07-23T03:13:27Z",
+      "updatedAt": "2026-07-31T11:48:12Z",
       "closedAt": null,
       "mergedAt": null,
       "headSha": "be8ca9eefbf9317beaa8f7b061310e30a11c011e",
@@ -320,11 +320,11 @@
       "priority": "P1",
       "clawSweeper": {
         "url": "https://github.com/openclaw/openclaw/pull/104492#issuecomment-4946284603",
-        "updatedAt": "2026-07-12T22:03:57Z",
-        "overall": "🦪 silver shellfish",
-        "proof": "🦪 silver shellfish",
-        "patchQuality": "🐚 platinum hermit",
-        "result": "blocked until real behavior proof from a real setup is added."
+        "updatedAt": "2026-07-31T11:48:09Z",
+        "overall": null,
+        "proof": null,
+        "patchQuality": null,
+        "result": null
       },
       "arca": {
         "workStatus": "active proof",
