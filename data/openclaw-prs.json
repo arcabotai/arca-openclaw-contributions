@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T19:59:30+00:00",
+  "generatedAt": "2026-08-05T09:08:54+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "authors": [
     {
@@ -296,11 +296,11 @@
       "identityRole": "Arca agent identity",
       "title": "fix(gateway): preserve channel restart ownership",
       "url": "https://github.com/openclaw/openclaw/pull/104492",
-      "state": "open",
+      "state": "closed",
       "draft": false,
       "createdAt": "2026-07-11T13:33:32Z",
-      "updatedAt": "2026-08-02T02:08:55Z",
-      "closedAt": null,
+      "updatedAt": "2026-08-05T05:03:57Z",
+      "closedAt": "2026-08-05T05:03:52Z",
       "mergedAt": null,
       "headSha": "be8ca9eefbf9317beaa8f7b061310e30a11c011e",
       "baseSha": "67ef07863fbb24d751e20f022e216118924ae15d",
@@ -311,8 +311,6 @@
         "size: S",
         "P1",
         "rating: 🦪 silver shellfish",
-        "merge-risk: 🚨 compatibility",
-        "merge-risk: 🚨 availability",
         "status: 📣 needs proof"
       ],
       "ratingLabel": "🦪 silver shellfish",
@@ -320,7 +318,7 @@
       "priority": "P1",
       "clawSweeper": {
         "url": "https://github.com/openclaw/openclaw/pull/104492#issuecomment-4946284603",
-        "updatedAt": "2026-07-31T11:48:09Z",
+        "updatedAt": "2026-08-05T05:03:29Z",
         "overall": null,
         "proof": null,
         "patchQuality": null,
