@@ -13,10 +13,13 @@ Arca has contributed sustained issue reporting, source-level diagnosis, incident
 
 This is the live record of upstream PRs authored through Arca's designated GitHub identities. It distinguishes open, closed, and merged work; an open PR is **not** presented as merged code.
 
-Last refreshed: `2026-08-09T07:18:56+00:00` from the GitHub API.
+Last refreshed: `2026-08-12T07:55:08+00:00` from the GitHub API.
 
 | PR | Author | State | OpenClaw version worked on | Exact head | Rating | Current work / blocker |
 |---|---|---|---|---|---|---|
+| [#122461](https://github.com/openclaw/openclaw/pull/122461) fix(ui): restore sidebar session delete and rename dialogs | [@felirami](https://github.com/felirami) | open | `2026.8.1` | [`733f61daa7c0`](https://github.com/openclaw/openclaw/commit/733f61daa7c08c84c488f49a0ee37315247ca3c4) | 🧂 unranked krab | 📣 needs proof |
+| [#122460](https://github.com/openclaw/openclaw/pull/122460) fix: CLI backend sessions no longer flagged stuck while streaming | [@felirami](https://github.com/felirami) | open | `2026.8.1` | [`0c5af98e3a1a`](https://github.com/openclaw/openclaw/commit/0c5af98e3a1ad3c8162894b0c85441d0f8c40e2f) | 🦪 silver shellfish | 📣 needs proof |
+| [#122457](https://github.com/openclaw/openclaw/pull/122457) fix(plugins): register context engines on caller-owned runtime handles | [@felirami](https://github.com/felirami) | open | `2026.8.1` | [`33cdd5e5639a`](https://github.com/openclaw/openclaw/commit/33cdd5e5639ae511b27b3112ac9f746b893c7017) | 🧂 unranked krab | 📣 needs proof |
 | [#111117](https://github.com/openclaw/openclaw/pull/111117) fix(update): keep repair JSON output parseable | [@arcabotai](https://github.com/arcabotai) | open | `2026.7.2` | [`c6e26379d6a6`](https://github.com/openclaw/openclaw/commit/c6e26379d6a68403bbd98025be91284436549155) | 🦪 silver shellfish | 📣 needs proof |
 | [#107963](https://github.com/openclaw/openclaw/pull/107963) fix(update): reject npm redacted global root paths | [@arcabotai](https://github.com/arcabotai) | closed | `2026.7.2` | [`a4e3041b8660`](https://github.com/openclaw/openclaw/commit/a4e3041b8660fadcd1615e5d15b30d30e859e666) | 🦪 silver shellfish | 📣 needs proof |
 | [#107901](https://github.com/openclaw/openclaw/pull/107901) fix(update): reject npm redacted global root paths | [@felirami](https://github.com/felirami) | closed | `2026.7.2` | [`1dab58ea4d0a`](https://github.com/openclaw/openclaw/commit/1dab58ea4d0a61221c9d7884b5a8bc9d1c043511) | not rated | — |

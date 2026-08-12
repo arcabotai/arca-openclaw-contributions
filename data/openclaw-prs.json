@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T07:18:56+00:00",
+  "generatedAt": "2026-08-12T07:55:08+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "authors": [
     {
@@ -14,6 +14,118 @@
     }
   ],
   "pullRequests": [
+    {
+      "number": 122461,
+      "author": "felirami",
+      "identityRole": "Arca founder",
+      "title": "fix(ui): restore sidebar session delete and rename dialogs",
+      "url": "https://github.com/openclaw/openclaw/pull/122461",
+      "state": "open",
+      "draft": false,
+      "createdAt": "2026-08-12T05:28:58Z",
+      "updatedAt": "2026-08-12T06:06:01Z",
+      "closedAt": null,
+      "mergedAt": null,
+      "headSha": "733f61daa7c08c84c488f49a0ee37315247ca3c4",
+      "baseSha": "3807eb9c582545e3ba15da41a28be9c79d4b0517",
+      "headOpenClawVersion": "2026.8.1",
+      "baseOpenClawVersion": "2026.8.1",
+      "labels": [
+        "app: web-ui",
+        "size: S",
+        "P2",
+        "rating: 🧂 unranked krab",
+        "merge-risk: 🚨 session-state",
+        "status: 📣 needs proof"
+      ],
+      "ratingLabel": "🧂 unranked krab",
+      "statusLabel": "📣 needs proof",
+      "priority": "P2",
+      "clawSweeper": {
+        "url": "https://github.com/openclaw/openclaw/pull/122461#issuecomment-5263000782",
+        "updatedAt": "2026-08-12T06:05:53Z",
+        "overall": null,
+        "proof": null,
+        "patchQuality": null,
+        "result": null
+      },
+      "arca": {}
+    },
+    {
+      "number": 122460,
+      "author": "felirami",
+      "identityRole": "Arca founder",
+      "title": "fix: CLI backend sessions no longer flagged stuck while streaming",
+      "url": "https://github.com/openclaw/openclaw/pull/122460",
+      "state": "open",
+      "draft": false,
+      "createdAt": "2026-08-12T05:28:29Z",
+      "updatedAt": "2026-08-12T06:20:00Z",
+      "closedAt": null,
+      "mergedAt": null,
+      "headSha": "0c5af98e3a1ad3c8162894b0c85441d0f8c40e2f",
+      "baseSha": "3807eb9c582545e3ba15da41a28be9c79d4b0517",
+      "headOpenClawVersion": "2026.8.1",
+      "baseOpenClawVersion": "2026.8.1",
+      "labels": [
+        "size: S",
+        "P2",
+        "rating: 🦪 silver shellfish",
+        "merge-risk: 🚨 session-state",
+        "status: 📣 needs proof"
+      ],
+      "ratingLabel": "🦪 silver shellfish",
+      "statusLabel": "📣 needs proof",
+      "priority": "P2",
+      "clawSweeper": {
+        "url": "https://github.com/openclaw/openclaw/pull/122460#issuecomment-5263100113",
+        "updatedAt": "2026-08-12T06:19:52Z",
+        "overall": null,
+        "proof": null,
+        "patchQuality": null,
+        "result": null
+      },
+      "arca": {}
+    },
+    {
+      "number": 122457,
+      "author": "felirami",
+      "identityRole": "Arca founder",
+      "title": "fix(plugins): register context engines on caller-owned runtime handles",
+      "url": "https://github.com/openclaw/openclaw/pull/122457",
+      "state": "open",
+      "draft": false,
+      "createdAt": "2026-08-12T05:25:20Z",
+      "updatedAt": "2026-08-12T06:13:46Z",
+      "closedAt": null,
+      "mergedAt": null,
+      "headSha": "33cdd5e5639ae511b27b3112ac9f746b893c7017",
+      "baseSha": "dd57cfb6c150b8201680b8e8930de0403d71856c",
+      "headOpenClawVersion": "2026.8.1",
+      "baseOpenClawVersion": "2026.8.1",
+      "labels": [
+        "agents",
+        "size: S",
+        "P1",
+        "rating: 🧂 unranked krab",
+        "merge-risk: 🚨 compatibility",
+        "merge-risk: 🚨 security-boundary",
+        "merge-risk: 🚨 availability",
+        "status: 📣 needs proof"
+      ],
+      "ratingLabel": "🧂 unranked krab",
+      "statusLabel": "📣 needs proof",
+      "priority": "P1",
+      "clawSweeper": {
+        "url": "https://github.com/openclaw/openclaw/pull/122457#issuecomment-5263056249",
+        "updatedAt": "2026-08-12T06:13:37Z",
+        "overall": null,
+        "proof": null,
+        "patchQuality": null,
+        "result": null
+      },
+      "arca": {}
+    },
     {
       "number": 111117,
       "author": "arcabotai",
