@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T07:56:47+00:00",
+  "generatedAt": "2026-08-13T19:28:38+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "authors": [
     {
@@ -23,7 +23,7 @@
       "state": "open",
       "draft": false,
       "createdAt": "2026-08-13T04:14:56Z",
-      "updatedAt": "2026-08-13T04:27:41Z",
+      "updatedAt": "2026-08-13T14:03:20Z",
       "closedAt": null,
       "mergedAt": null,
       "headSha": "5294d7ba03ad6662551325724d0f5152701ba4eb",
@@ -60,10 +60,10 @@
       "state": "open",
       "draft": false,
       "createdAt": "2026-08-12T22:50:38Z",
-      "updatedAt": "2026-08-13T05:05:41Z",
+      "updatedAt": "2026-08-13T13:58:47Z",
       "closedAt": null,
       "mergedAt": null,
-      "headSha": "c29b89f59c95a409c2c5509b83c7f0096f6741ec",
+      "headSha": "05565da36288836ddc822e8eb377d6a9e3c198ff",
       "baseSha": "9b9f2ab4036ec3d1ffad44b7b21a5b6d7b4a4f83",
       "headOpenClawVersion": "2026.8.1",
       "baseOpenClawVersion": "2026.8.1",
