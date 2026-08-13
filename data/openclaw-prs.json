@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T03:02:08+00:00",
+  "generatedAt": "2026-08-13T07:56:47+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "authors": [
     {
@@ -15,6 +15,43 @@
   ],
   "pullRequests": [
     {
+      "number": 122984,
+      "author": "felirami",
+      "identityRole": "Arca founder",
+      "title": "fix(plugins): allow install when outgoing channel schema disagrees",
+      "url": "https://github.com/openclaw/openclaw/pull/122984",
+      "state": "open",
+      "draft": false,
+      "createdAt": "2026-08-13T04:14:56Z",
+      "updatedAt": "2026-08-13T04:27:41Z",
+      "closedAt": null,
+      "mergedAt": null,
+      "headSha": "5294d7ba03ad6662551325724d0f5152701ba4eb",
+      "baseSha": "9c4224c54e3ff91383184c78e72ec45fd44aba3b",
+      "headOpenClawVersion": "2026.8.1",
+      "baseOpenClawVersion": "2026.8.1",
+      "labels": [
+        "cli",
+        "size: S",
+        "P2",
+        "rating: 🦪 silver shellfish",
+        "merge-risk: 🚨 compatibility",
+        "status: 📣 needs proof"
+      ],
+      "ratingLabel": "🦪 silver shellfish",
+      "statusLabel": "📣 needs proof",
+      "priority": "P2",
+      "clawSweeper": {
+        "url": "https://github.com/openclaw/openclaw/pull/122984#issuecomment-5275961939",
+        "updatedAt": "2026-08-13T04:27:32Z",
+        "overall": null,
+        "proof": null,
+        "patchQuality": null,
+        "result": null
+      },
+      "arca": {}
+    },
+    {
       "number": 122855,
       "author": "felirami",
       "identityRole": "Arca founder",
@@ -23,18 +60,19 @@
       "state": "open",
       "draft": false,
       "createdAt": "2026-08-12T22:50:38Z",
-      "updatedAt": "2026-08-12T23:29:48Z",
+      "updatedAt": "2026-08-13T05:05:41Z",
       "closedAt": null,
       "mergedAt": null,
-      "headSha": "47dc601d50de5c3fe850310b0f5173bb623f123d",
+      "headSha": "c29b89f59c95a409c2c5509b83c7f0096f6741ec",
       "baseSha": "9b9f2ab4036ec3d1ffad44b7b21a5b6d7b4a4f83",
       "headOpenClawVersion": "2026.8.1",
       "baseOpenClawVersion": "2026.8.1",
       "labels": [
         "agents",
-        "size: S",
+        "size: M",
         "P2",
         "rating: 🦪 silver shellfish",
+        "merge-risk: 🚨 session-state",
         "status: 📣 needs proof"
       ],
       "ratingLabel": "🦪 silver shellfish",
@@ -42,7 +80,7 @@
       "priority": "P2",
       "clawSweeper": {
         "url": "https://github.com/openclaw/openclaw/pull/122855#issuecomment-5273951816",
-        "updatedAt": "2026-08-12T23:22:17Z",
+        "updatedAt": "2026-08-13T05:05:32Z",
         "overall": null,
         "proof": null,
         "patchQuality": null,
@@ -59,7 +97,7 @@
       "state": "open",
       "draft": false,
       "createdAt": "2026-08-12T21:40:06Z",
-      "updatedAt": "2026-08-13T02:15:05Z",
+      "updatedAt": "2026-08-13T04:30:00Z",
       "closedAt": null,
       "mergedAt": null,
       "headSha": "3203c55bcae1931ea0ca7d9d2f8477ac64f6a07e",
@@ -245,7 +283,7 @@
       "state": "open",
       "draft": false,
       "createdAt": "2026-07-19T01:51:40Z",
-      "updatedAt": "2026-08-13T01:09:19Z",
+      "updatedAt": "2026-08-13T06:06:42Z",
       "closedAt": null,
       "mergedAt": null,
       "headSha": "c6e26379d6a68403bbd98025be91284436549155",
@@ -266,7 +304,7 @@
       "priority": "P2",
       "clawSweeper": {
         "url": "https://github.com/openclaw/openclaw/pull/111117#issuecomment-5013751360",
-        "updatedAt": "2026-08-04T17:22:34Z",
+        "updatedAt": "2026-08-13T06:06:34Z",
         "overall": null,
         "proof": null,
         "patchQuality": null,
