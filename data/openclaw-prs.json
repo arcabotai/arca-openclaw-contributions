@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T19:28:38+00:00",
+  "generatedAt": "2026-08-14T02:48:47+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "authors": [
     {
@@ -15,6 +15,43 @@
   ],
   "pullRequests": [
     {
+      "number": 123321,
+      "author": "felirami",
+      "identityRole": "Arca founder",
+      "title": "fix(feishu): keep pre-tool text in streaming card replies",
+      "url": "https://github.com/openclaw/openclaw/pull/123321",
+      "state": "open",
+      "draft": false,
+      "createdAt": "2026-08-13T21:22:38Z",
+      "updatedAt": "2026-08-13T22:22:01Z",
+      "closedAt": null,
+      "mergedAt": null,
+      "headSha": "71de73521bbee1cb5901cb39beb03781abec4fa2",
+      "baseSha": "ffa8a1d89264281c2944a203661db9275d98d435",
+      "headOpenClawVersion": "2026.8.1",
+      "baseOpenClawVersion": "2026.8.1",
+      "labels": [
+        "channel: feishu",
+        "size: S",
+        "P1",
+        "rating: 🦪 silver shellfish",
+        "merge-risk: 🚨 message-delivery",
+        "status: 📣 needs proof"
+      ],
+      "ratingLabel": "🦪 silver shellfish",
+      "statusLabel": "📣 needs proof",
+      "priority": "P1",
+      "clawSweeper": {
+        "url": "https://github.com/openclaw/openclaw/pull/123321#issuecomment-5286613089",
+        "updatedAt": "2026-08-13T22:21:13Z",
+        "overall": null,
+        "proof": null,
+        "patchQuality": null,
+        "result": null
+      },
+      "arca": {}
+    },
+    {
       "number": 122984,
       "author": "felirami",
       "identityRole": "Arca founder",
@@ -23,7 +60,7 @@
       "state": "open",
       "draft": false,
       "createdAt": "2026-08-13T04:14:56Z",
-      "updatedAt": "2026-08-13T14:03:20Z",
+      "updatedAt": "2026-08-13T19:52:35Z",
       "closedAt": null,
       "mergedAt": null,
       "headSha": "5294d7ba03ad6662551325724d0f5152701ba4eb",
@@ -33,17 +70,18 @@
       "labels": [
         "cli",
         "size: S",
+        "proof: sufficient",
         "P2",
-        "rating: 🦪 silver shellfish",
+        "rating: 🦐 gold shrimp",
         "merge-risk: 🚨 compatibility",
-        "status: 📣 needs proof"
+        "status: 👀 ready for maintainer look"
       ],
-      "ratingLabel": "🦪 silver shellfish",
-      "statusLabel": "📣 needs proof",
+      "ratingLabel": "🦐 gold shrimp",
+      "statusLabel": "👀 ready for maintainer look",
       "priority": "P2",
       "clawSweeper": {
         "url": "https://github.com/openclaw/openclaw/pull/122984#issuecomment-5275961939",
-        "updatedAt": "2026-08-13T04:27:32Z",
+        "updatedAt": "2026-08-13T19:51:54Z",
         "overall": null,
         "proof": null,
         "patchQuality": null,
@@ -60,7 +98,7 @@
       "state": "open",
       "draft": false,
       "createdAt": "2026-08-12T22:50:38Z",
-      "updatedAt": "2026-08-13T13:58:47Z",
+      "updatedAt": "2026-08-13T22:15:06Z",
       "closedAt": null,
       "mergedAt": null,
       "headSha": "05565da36288836ddc822e8eb377d6a9e3c198ff",
@@ -70,17 +108,18 @@
       "labels": [
         "agents",
         "size: M",
+        "proof: sufficient",
         "P2",
-        "rating: 🦪 silver shellfish",
+        "rating: 🐚 platinum hermit",
         "merge-risk: 🚨 session-state",
-        "status: 📣 needs proof"
+        "status: 👀 ready for maintainer look"
       ],
-      "ratingLabel": "🦪 silver shellfish",
-      "statusLabel": "📣 needs proof",
+      "ratingLabel": "🐚 platinum hermit",
+      "statusLabel": "👀 ready for maintainer look",
       "priority": "P2",
       "clawSweeper": {
         "url": "https://github.com/openclaw/openclaw/pull/122855#issuecomment-5273951816",
-        "updatedAt": "2026-08-13T05:05:32Z",
+        "updatedAt": "2026-08-13T22:10:19Z",
         "overall": null,
         "proof": null,
         "patchQuality": null,

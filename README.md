@@ -13,12 +13,13 @@ Arca has contributed sustained issue reporting, source-level diagnosis, incident
 
 This is the live record of upstream PRs authored through Arca's designated GitHub identities. It distinguishes open, closed, and merged work; an open PR is **not** presented as merged code.
 
-Last refreshed: `2026-08-13T19:28:38+00:00` from the GitHub API.
+Last refreshed: `2026-08-14T02:48:47+00:00` from the GitHub API.
 
 | PR | Author | State | OpenClaw version worked on | Exact head | Rating | Current work / blocker |
 |---|---|---|---|---|---|---|
-| [#122984](https://github.com/openclaw/openclaw/pull/122984) fix(plugins): allow install when outgoing channel schema disagrees | [@felirami](https://github.com/felirami) | open | `2026.8.1` | [`5294d7ba03ad`](https://github.com/openclaw/openclaw/commit/5294d7ba03ad6662551325724d0f5152701ba4eb) | 🦪 silver shellfish | 📣 needs proof |
-| [#122855](https://github.com/openclaw/openclaw/pull/122855) fix(subagents): preserve announce drop vs none delivery reasons | [@felirami](https://github.com/felirami) | open | `2026.8.1` | [`05565da36288`](https://github.com/openclaw/openclaw/commit/05565da36288836ddc822e8eb377d6a9e3c198ff) | 🦪 silver shellfish | 📣 needs proof |
+| [#123321](https://github.com/openclaw/openclaw/pull/123321) fix(feishu): keep pre-tool text in streaming card replies | [@felirami](https://github.com/felirami) | open | `2026.8.1` | [`71de73521bbe`](https://github.com/openclaw/openclaw/commit/71de73521bbee1cb5901cb39beb03781abec4fa2) | 🦪 silver shellfish | 📣 needs proof |
+| [#122984](https://github.com/openclaw/openclaw/pull/122984) fix(plugins): allow install when outgoing channel schema disagrees | [@felirami](https://github.com/felirami) | open | `2026.8.1` | [`5294d7ba03ad`](https://github.com/openclaw/openclaw/commit/5294d7ba03ad6662551325724d0f5152701ba4eb) | 🦐 gold shrimp | 👀 ready for maintainer look |
+| [#122855](https://github.com/openclaw/openclaw/pull/122855) fix(subagents): preserve announce drop vs none delivery reasons | [@felirami](https://github.com/felirami) | open | `2026.8.1` | [`05565da36288`](https://github.com/openclaw/openclaw/commit/05565da36288836ddc822e8eb377d6a9e3c198ff) | 🐚 platinum hermit | 👀 ready for maintainer look |
 | [#122827](https://github.com/openclaw/openclaw/pull/122827) fix(slack): strip Exec failed traces from streaming replies | [@felirami](https://github.com/felirami) | open | `2026.8.1` | [`3203c55bcae1`](https://github.com/openclaw/openclaw/commit/3203c55bcae1931ea0ca7d9d2f8477ac64f6a07e) | 🐚 platinum hermit | 👀 ready for maintainer look |
 | [#122804](https://github.com/openclaw/openclaw/pull/122804) fix(plugins): honor enabledByDefault in config validation warnings | [@felirami](https://github.com/felirami) | open | `2026.8.1` | [`2a603ba0572c`](https://github.com/openclaw/openclaw/commit/2a603ba0572c55c6a0732e63f4f156b78b694f84) | 🐚 platinum hermit | 👀 ready for maintainer look |
 | [#122461](https://github.com/openclaw/openclaw/pull/122461) fix(ui): restore sidebar session delete and rename dialogs | [@felirami](https://github.com/felirami) | closed | `2026.8.1` | [`733f61daa7c0`](https://github.com/openclaw/openclaw/commit/733f61daa7c08c84c488f49a0ee37315247ca3c4) | 🧂 unranked krab | 📣 needs proof |
