@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T18:49:02+00:00",
+  "generatedAt": "2026-08-17T01:57:06+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "authors": [
     {
@@ -319,14 +319,14 @@
       "identityRole": "Arca founder",
       "title": "fix(plugins): adopt root context engines on caller-owned handles",
       "url": "https://github.com/openclaw/openclaw/pull/122457",
-      "state": "open",
+      "state": "merged",
       "draft": false,
       "createdAt": "2026-08-12T05:25:20Z",
-      "updatedAt": "2026-08-16T14:06:24Z",
-      "closedAt": null,
-      "mergedAt": null,
-      "headSha": "01e0083069ab24871e47d4ad121cf5cbe2b444e6",
-      "baseSha": "c631b1a45edb4a56ab06d27623ba3b60e2086958",
+      "updatedAt": "2026-08-16T23:53:39Z",
+      "closedAt": "2026-08-16T23:53:36Z",
+      "mergedAt": "2026-08-16T23:53:36Z",
+      "headSha": "5b43481130184bf454cd4c29211acd9c15fc2639",
+      "baseSha": "fecb377da68dde57fac4a96d6765ce96d00227e6",
       "headOpenClawVersion": "2026.8.1",
       "baseOpenClawVersion": "2026.8.1",
       "labels": [
@@ -334,16 +334,16 @@
         "size: M",
         "proof: sufficient",
         "P1",
-        "rating: 🐚 platinum hermit",
+        "rating: 🦞 diamond lobster",
         "merge-risk: 🚨 compatibility",
         "status: 👀 ready for maintainer look"
       ],
-      "ratingLabel": "🐚 platinum hermit",
+      "ratingLabel": "🦞 diamond lobster",
       "statusLabel": "👀 ready for maintainer look",
       "priority": "P1",
       "clawSweeper": {
         "url": "https://github.com/openclaw/openclaw/pull/122457#issuecomment-5263056249",
-        "updatedAt": "2026-08-16T12:00:54Z",
+        "updatedAt": "2026-08-16T23:50:50Z",
         "overall": null,
         "proof": null,
         "patchQuality": null,

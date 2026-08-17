@@ -13,7 +13,7 @@ Arca has contributed sustained issue reporting, source-level diagnosis, incident
 
 This is the live record of upstream PRs authored through Arca's designated GitHub identities. It distinguishes open, closed, and merged work; an open PR is **not** presented as merged code.
 
-Last refreshed: `2026-08-16T18:49:02+00:00` from the GitHub API.
+Last refreshed: `2026-08-17T01:57:06+00:00` from the GitHub API.
 
 | PR | Author | State | OpenClaw version worked on | Exact head | Rating | Current work / blocker |
 |---|---|---|---|---|---|---|
@@ -25,7 +25,7 @@ Last refreshed: `2026-08-16T18:49:02+00:00` from the GitHub API.
 | [#122804](https://github.com/openclaw/openclaw/pull/122804) fix(plugins): honor enabledByDefault in config validation warnings | [@felirami](https://github.com/felirami) | open | `2026.8.1` | [`2a603ba0572c`](https://github.com/openclaw/openclaw/commit/2a603ba0572c55c6a0732e63f4f156b78b694f84) | 🐚 platinum hermit | 👀 ready for maintainer look |
 | [#122461](https://github.com/openclaw/openclaw/pull/122461) fix(ui): restore sidebar session delete and rename dialogs | [@felirami](https://github.com/felirami) | closed | `2026.8.1` | [`733f61daa7c0`](https://github.com/openclaw/openclaw/commit/733f61daa7c08c84c488f49a0ee37315247ca3c4) | 🧂 unranked krab | 📣 needs proof |
 | [#122460](https://github.com/openclaw/openclaw/pull/122460) fix: CLI backend sessions no longer flagged stuck while streaming | [@felirami](https://github.com/felirami) | open | `2026.8.1` | [`703d457020e4`](https://github.com/openclaw/openclaw/commit/703d457020e4a9efc09c1619f4d462ed51b8d634) | 🐚 platinum hermit | 👀 ready for maintainer look |
-| [#122457](https://github.com/openclaw/openclaw/pull/122457) fix(plugins): adopt root context engines on caller-owned handles | [@felirami](https://github.com/felirami) | open | `2026.8.1` | [`01e0083069ab`](https://github.com/openclaw/openclaw/commit/01e0083069ab24871e47d4ad121cf5cbe2b444e6) | 🐚 platinum hermit | 👀 ready for maintainer look |
+| [#122457](https://github.com/openclaw/openclaw/pull/122457) fix(plugins): adopt root context engines on caller-owned handles | [@felirami](https://github.com/felirami) | merged | `2026.8.1` | [`5b4348113018`](https://github.com/openclaw/openclaw/commit/5b43481130184bf454cd4c29211acd9c15fc2639) | 🦞 diamond lobster | 👀 ready for maintainer look |
 | [#111117](https://github.com/openclaw/openclaw/pull/111117) fix(update): keep repair JSON output parseable | [@arcabotai](https://github.com/arcabotai) | open | `2026.7.2` | [`c6e26379d6a6`](https://github.com/openclaw/openclaw/commit/c6e26379d6a68403bbd98025be91284436549155) | 🦪 silver shellfish | 📣 needs proof |
 | [#107963](https://github.com/openclaw/openclaw/pull/107963) fix(update): reject npm redacted global root paths | [@arcabotai](https://github.com/arcabotai) | closed | `2026.7.2` | [`a4e3041b8660`](https://github.com/openclaw/openclaw/commit/a4e3041b8660fadcd1615e5d15b30d30e859e666) | 🦪 silver shellfish | 📣 needs proof |
 | [#107901](https://github.com/openclaw/openclaw/pull/107901) fix(update): reject npm redacted global root paths | [@felirami](https://github.com/felirami) | closed | `2026.7.2` | [`1dab58ea4d0a`](https://github.com/openclaw/openclaw/commit/1dab58ea4d0a61221c9d7884b5a8bc9d1c043511) | not rated | — |
