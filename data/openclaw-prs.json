@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T18:59:22+00:00",
+  "generatedAt": "2026-08-19T01:55:09+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "authors": [
     {
@@ -212,7 +212,7 @@
       "state": "open",
       "draft": false,
       "createdAt": "2026-08-12T20:42:22Z",
-      "updatedAt": "2026-08-16T04:04:26Z",
+      "updatedAt": "2026-08-18T21:06:50Z",
       "closedAt": null,
       "mergedAt": null,
       "headSha": "2a603ba0572c55c6a0732e63f4f156b78b694f84",
@@ -231,11 +231,11 @@
       "priority": "P2",
       "clawSweeper": {
         "url": "https://github.com/openclaw/openclaw/pull/122804#issuecomment-5272858073",
-        "updatedAt": "2026-08-16T03:43:56Z",
+        "updatedAt": "2026-08-18T21:06:43Z",
         "overall": null,
         "proof": null,
         "patchQuality": null,
-        "result": null
+        "result": "** FAIL (failed) — execution before step 1 `run`: `live-proof package manager pnpm is unavailable after its official installer (curl -fsSL https://get.pnpm.io/install.sh | sh -): command failed without output`"
       },
       "arca": {}
     },
@@ -357,11 +357,11 @@
       "identityRole": "Arca agent identity",
       "title": "fix(update): keep repair JSON output parseable",
       "url": "https://github.com/openclaw/openclaw/pull/111117",
-      "state": "open",
+      "state": "closed",
       "draft": false,
       "createdAt": "2026-07-19T01:51:40Z",
-      "updatedAt": "2026-08-18T12:37:43Z",
-      "closedAt": null,
+      "updatedAt": "2026-08-18T22:37:19Z",
+      "closedAt": "2026-08-18T22:37:14Z",
       "mergedAt": null,
       "headSha": "c6e26379d6a68403bbd98025be91284436549155",
       "baseSha": "6c9b31e4d5604a82f2d9cfba64bb8a7cbb0e2de8",
@@ -381,7 +381,7 @@
       "priority": "P2",
       "clawSweeper": {
         "url": "https://github.com/openclaw/openclaw/pull/111117#issuecomment-5013751360",
-        "updatedAt": "2026-08-16T13:26:00Z",
+        "updatedAt": "2026-08-18T22:36:46Z",
         "overall": null,
         "proof": null,
         "patchQuality": null,
