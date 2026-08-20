@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T07:08:59+00:00",
+  "generatedAt": "2026-08-20T13:14:02+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "authors": [
     {
@@ -20,14 +20,14 @@
       "identityRole": "Arca founder",
       "title": "fix: spawned child prompt omits staged attachment file paths",
       "url": "https://github.com/openclaw/openclaw/pull/123676",
-      "state": "open",
+      "state": "merged",
       "draft": false,
       "createdAt": "2026-08-14T13:51:06Z",
-      "updatedAt": "2026-08-20T06:30:57Z",
-      "closedAt": null,
-      "mergedAt": null,
-      "headSha": "d9460ac5db9b9d4a14800c2249be7fbdd7a9c582",
-      "baseSha": "b4f91fadf3ea3a67bab59e36b7d330ddbdb7d99c",
+      "updatedAt": "2026-08-20T09:54:35Z",
+      "closedAt": "2026-08-20T09:54:32Z",
+      "mergedAt": "2026-08-20T09:54:32Z",
+      "headSha": "a4040009698d300622536f59b9ba5de031b28c4f",
+      "baseSha": "a2fe7c395d90a01801655822b59583fc2d6d53e2",
       "headOpenClawVersion": "2026.8.1",
       "baseOpenClawVersion": "2026.8.1",
       "labels": [
@@ -35,16 +35,16 @@
         "size: M",
         "proof: sufficient",
         "P1",
-        "rating: 🐚 platinum hermit",
+        "rating: 🦞 diamond lobster",
         "merge-risk: 🚨 compatibility",
         "status: 👀 ready for maintainer look"
       ],
-      "ratingLabel": "🐚 platinum hermit",
+      "ratingLabel": "🦞 diamond lobster",
       "statusLabel": "👀 ready for maintainer look",
       "priority": "P1",
       "clawSweeper": {
         "url": "https://github.com/openclaw/openclaw/pull/123676#issuecomment-5294465086",
-        "updatedAt": "2026-08-20T06:30:44Z",
+        "updatedAt": "2026-08-20T09:32:46Z",
         "overall": null,
         "proof": null,
         "patchQuality": null,
