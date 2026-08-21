@@ -13,7 +13,7 @@ Arca has contributed sustained issue reporting, source-level diagnosis, incident
 
 This is the live record of upstream PRs authored through Arca's designated GitHub identities. It distinguishes open, closed, and merged work; an open PR is **not** presented as merged code.
 
-Last refreshed: `2026-08-21T01:59:52+00:00` from the GitHub API.
+Last refreshed: `2026-08-21T18:59:17+00:00` from the GitHub API.
 
 | PR | Author | State | OpenClaw version worked on | Exact head | Rating | Current work / blocker |
 |---|---|---|---|---|---|---|
@@ -22,7 +22,7 @@ Last refreshed: `2026-08-21T01:59:52+00:00` from the GitHub API.
 | [#122984](https://github.com/openclaw/openclaw/pull/122984) fix(plugins): allow install when outgoing channel schema disagrees | [@felirami](https://github.com/felirami) | open | `2026.8.1` | [`5294d7ba03ad`](https://github.com/openclaw/openclaw/commit/5294d7ba03ad6662551325724d0f5152701ba4eb) | 🦐 gold shrimp | ⏳ waiting on author |
 | [#122855](https://github.com/openclaw/openclaw/pull/122855) fix(subagents): preserve announce drop vs none delivery reasons | [@felirami](https://github.com/felirami) | open | `2026.8.1` | [`05565da36288`](https://github.com/openclaw/openclaw/commit/05565da36288836ddc822e8eb377d6a9e3c198ff) | 🐚 platinum hermit | 👀 ready for maintainer look |
 | [#122827](https://github.com/openclaw/openclaw/pull/122827) fix(slack): strip Exec failed traces from streaming replies | [@felirami](https://github.com/felirami) | open | `2026.8.1` | [`3203c55bcae1`](https://github.com/openclaw/openclaw/commit/3203c55bcae1931ea0ca7d9d2f8477ac64f6a07e) | 🐚 platinum hermit | 👀 ready for maintainer look |
-| [#122804](https://github.com/openclaw/openclaw/pull/122804) fix(plugins): honor enabledByDefault in config validation warnings | [@felirami](https://github.com/felirami) | open | `2026.8.1` | [`2a603ba0572c`](https://github.com/openclaw/openclaw/commit/2a603ba0572c55c6a0732e63f4f156b78b694f84) | 🐚 platinum hermit | 👀 ready for maintainer look |
+| [#122804](https://github.com/openclaw/openclaw/pull/122804) fix(plugins): honor enabledByDefault in config validation warnings | [@felirami](https://github.com/felirami) | closed | `2026.8.1` | [`2a603ba0572c`](https://github.com/openclaw/openclaw/commit/2a603ba0572c55c6a0732e63f4f156b78b694f84) | 🐚 platinum hermit | 👀 ready for maintainer look |
 | [#122461](https://github.com/openclaw/openclaw/pull/122461) fix(ui): restore sidebar session delete and rename dialogs | [@felirami](https://github.com/felirami) | closed | `2026.8.1` | [`733f61daa7c0`](https://github.com/openclaw/openclaw/commit/733f61daa7c08c84c488f49a0ee37315247ca3c4) | 🧂 unranked krab | 📣 needs proof |
 | [#122460](https://github.com/openclaw/openclaw/pull/122460) fix: CLI backend sessions no longer flagged stuck while streaming | [@felirami](https://github.com/felirami) | open | `2026.8.1` | [`703d457020e4`](https://github.com/openclaw/openclaw/commit/703d457020e4a9efc09c1619f4d462ed51b8d634) | 🦐 gold shrimp | ⏳ waiting on author |
 | [#122457](https://github.com/openclaw/openclaw/pull/122457) fix(plugins): adopt root context engines on caller-owned handles | [@felirami](https://github.com/felirami) | merged | `2026.8.1` | [`5b4348113018`](https://github.com/openclaw/openclaw/commit/5b43481130184bf454cd4c29211acd9c15fc2639) | 🦞 diamond lobster | 👀 ready for maintainer look |

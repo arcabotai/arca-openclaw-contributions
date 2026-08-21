@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T01:59:52+00:00",
+  "generatedAt": "2026-08-21T18:59:17+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "authors": [
     {
@@ -209,11 +209,11 @@
       "identityRole": "Arca founder",
       "title": "fix(plugins): honor enabledByDefault in config validation warnings",
       "url": "https://github.com/openclaw/openclaw/pull/122804",
-      "state": "open",
+      "state": "closed",
       "draft": false,
       "createdAt": "2026-08-12T20:42:22Z",
-      "updatedAt": "2026-08-18T21:06:50Z",
-      "closedAt": null,
+      "updatedAt": "2026-08-21T14:15:46Z",
+      "closedAt": "2026-08-21T14:15:46Z",
       "mergedAt": null,
       "headSha": "2a603ba0572c55c6a0732e63f4f156b78b694f84",
       "baseSha": "99a98270774c4eb8ca26968dacbb4672ee7556cd",
@@ -221,6 +221,7 @@
       "baseOpenClawVersion": "2026.8.1",
       "labels": [
         "size: S",
+        "close:already-fixed",
         "proof: sufficient",
         "P2",
         "rating: 🐚 platinum hermit",
