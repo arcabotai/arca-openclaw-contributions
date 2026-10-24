@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T04:57:07+00:00",
+  "generatedAt": "2026-10-24T11:09:55+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "authors": [
     {
@@ -98,11 +98,11 @@
       "identityRole": "Arca founder",
       "title": "fix(feishu): keep pre-tool text in streaming card replies",
       "url": "https://github.com/openclaw/openclaw/pull/123321",
-      "state": "open",
+      "state": "closed",
       "draft": false,
       "createdAt": "2026-08-13T21:22:38Z",
-      "updatedAt": "2026-10-22T02:43:05Z",
-      "closedAt": null,
+      "updatedAt": "2026-10-24T08:36:42Z",
+      "closedAt": "2026-10-24T06:15:47Z",
       "mergedAt": null,
       "headSha": "71de73521bbee1cb5901cb39beb03781abec4fa2",
       "baseSha": "57034eb5e70b33bcf1e11ba782693d0d0889bb83",
