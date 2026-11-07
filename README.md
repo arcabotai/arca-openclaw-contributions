@@ -13,10 +13,11 @@ Arca has contributed sustained issue reporting, source-level diagnosis, incident
 
 This is the live record of upstream PRs authored through Arca's designated GitHub identities. It distinguishes open, closed, and merged work; an open PR is **not** presented as merged code.
 
-Last refreshed: `2026-10-24T11:09:55+00:00` from the GitHub API.
+Last refreshed: `2026-11-07T13:11:23+00:00` from the GitHub API.
 
 | PR | Author | State | OpenClaw version worked on | Exact head | Rating | Current work / blocker |
 |---|---|---|---|---|---|---|
+| [#194540](https://github.com/openclaw/openclaw/pull/194540) fix: worker turns fail before inference when web search is offered | [@arcabotai](https://github.com/arcabotai) | open | `2026.11.1` | [`c0f05cda9568`](https://github.com/openclaw/openclaw/commit/c0f05cda9568aeffb7ec7ccecbff25039a54fb59) | not rated | — |
 | [#150660](https://github.com/openclaw/openclaw/pull/150660) improve: correct spelling typos in docs, comments, and an identifier | [@felirami](https://github.com/felirami) | closed | `2026.9.4` | [`b39fd8cdc280`](https://github.com/openclaw/openclaw/commit/b39fd8cdc280852df8c0a7fa19c5c2a3abaf6a9a) | 🦪 silver shellfish | 📣 needs proof |
 | [#123676](https://github.com/openclaw/openclaw/pull/123676) fix: spawned child prompt omits staged attachment file paths | [@felirami](https://github.com/felirami) | merged | `2026.8.1` | [`a4040009698d`](https://github.com/openclaw/openclaw/commit/a4040009698d300622536f59b9ba5de031b28c4f) | 🦞 diamond lobster | 👀 ready for maintainer look |
 | [#123321](https://github.com/openclaw/openclaw/pull/123321) fix(feishu): keep pre-tool text in streaming card replies | [@felirami](https://github.com/felirami) | closed | `2026.8.1` | [`71de73521bbe`](https://github.com/openclaw/openclaw/commit/71de73521bbee1cb5901cb39beb03781abec4fa2) | 🦪 silver shellfish | 📣 needs proof |
