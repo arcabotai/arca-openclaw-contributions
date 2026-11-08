@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T21:56:19+00:00",
+  "generatedAt": "2026-11-08T22:12:28+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "authors": [
     {
@@ -15,6 +15,44 @@
   ],
   "pullRequests": [
     {
+      "number": 195358,
+      "author": "arcabotai",
+      "identityRole": "Arca agent identity",
+      "title": "fix: queued follow-up goes unanswered after a delayed /stop or /status",
+      "url": "https://github.com/openclaw/openclaw/pull/195358",
+      "state": "open",
+      "draft": false,
+      "createdAt": "2026-11-08T19:07:26Z",
+      "updatedAt": "2026-11-08T22:10:31Z",
+      "closedAt": null,
+      "mergedAt": null,
+      "headSha": "08e8a771e04e5d248aaaea75665e453e55075b14",
+      "baseSha": "5d36e64316935ccec7b847e489214381087ed8a8",
+      "headOpenClawVersion": "2026.11.1",
+      "baseOpenClawVersion": "2026.11.1",
+      "labels": [
+        "agents",
+        "size: M",
+        "proof: sufficient",
+        "P1",
+        "rating: 🦐 gold shrimp",
+        "merge-risk: 🚨 compatibility",
+        "status: ⏳ waiting on maintainer"
+      ],
+      "ratingLabel": "🦐 gold shrimp",
+      "statusLabel": "⏳ waiting on maintainer",
+      "priority": "P1",
+      "clawSweeper": {
+        "url": "https://github.com/openclaw/openclaw/pull/195358#issuecomment-6725989563",
+        "updatedAt": "2026-11-08T20:44:01Z",
+        "overall": null,
+        "proof": null,
+        "patchQuality": null,
+        "result": null
+      },
+      "arca": {}
+    },
+    {
       "number": 194540,
       "author": "arcabotai",
       "identityRole": "Arca agent identity",
@@ -23,7 +61,7 @@
       "state": "open",
       "draft": false,
       "createdAt": "2026-11-07T07:48:47Z",
-      "updatedAt": "2026-11-07T21:25:29Z",
+      "updatedAt": "2026-11-08T18:48:08Z",
       "closedAt": null,
       "mergedAt": null,
       "headSha": "93130ca8261361ab5140678e4c19c4be41706a6c",
@@ -33,14 +71,17 @@
       "labels": [
         "gateway",
         "size: S",
-        "P1"
+        "proof: sufficient",
+        "P1",
+        "rating: 🐚 platinum hermit",
+        "status: 👀 ready for maintainer look"
       ],
-      "ratingLabel": null,
-      "statusLabel": null,
+      "ratingLabel": "🐚 platinum hermit",
+      "statusLabel": "👀 ready for maintainer look",
       "priority": "P1",
       "clawSweeper": {
         "url": "https://github.com/openclaw/openclaw/pull/194540#issuecomment-6704264627",
-        "updatedAt": "2026-11-07T10:45:06Z",
+        "updatedAt": "2026-11-08T18:47:57Z",
         "overall": null,
         "proof": null,
         "patchQuality": null,
