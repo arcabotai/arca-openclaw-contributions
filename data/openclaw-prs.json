@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:12:28+00:00",
+  "generatedAt": "2026-11-09T06:44:58+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "authors": [
     {
@@ -58,14 +58,14 @@
       "identityRole": "Arca agent identity",
       "title": "fix: worker turns fail before inference when web search is offered",
       "url": "https://github.com/openclaw/openclaw/pull/194540",
-      "state": "open",
+      "state": "merged",
       "draft": false,
       "createdAt": "2026-11-07T07:48:47Z",
-      "updatedAt": "2026-11-08T18:48:08Z",
-      "closedAt": null,
-      "mergedAt": null,
-      "headSha": "93130ca8261361ab5140678e4c19c4be41706a6c",
-      "baseSha": "4cedec0f47a5fbd24046e9a3cfe73fe92bee116e",
+      "updatedAt": "2026-11-09T03:30:03Z",
+      "closedAt": "2026-11-09T03:29:59Z",
+      "mergedAt": "2026-11-09T03:29:59Z",
+      "headSha": "b96f263d77582056e89fa49eae09b697e09caad7",
+      "baseSha": "712a3611f9570c73e22fe05617e372d5abc5e3c8",
       "headOpenClawVersion": "2026.11.1",
       "baseOpenClawVersion": "2026.11.1",
       "labels": [
@@ -73,15 +73,15 @@
         "size: S",
         "proof: sufficient",
         "P1",
-        "rating: 🐚 platinum hermit",
+        "rating: 🦞 diamond lobster",
         "status: 👀 ready for maintainer look"
       ],
-      "ratingLabel": "🐚 platinum hermit",
+      "ratingLabel": "🦞 diamond lobster",
       "statusLabel": "👀 ready for maintainer look",
       "priority": "P1",
       "clawSweeper": {
         "url": "https://github.com/openclaw/openclaw/pull/194540#issuecomment-6704264627",
-        "updatedAt": "2026-11-08T18:47:57Z",
+        "updatedAt": "2026-11-09T03:26:35Z",
         "overall": null,
         "proof": null,
         "patchQuality": null,
