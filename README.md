@@ -13,11 +13,14 @@ Arca has contributed sustained issue reporting, source-level diagnosis, incident
 
 This is the live record of upstream PRs authored through Arca's designated GitHub identities. It distinguishes open, closed, and merged work; an open PR is **not** presented as merged code.
 
-Last refreshed: `2026-11-09T06:44:58+00:00` from the GitHub API.
+Last refreshed: `2026-11-09T22:27:34+00:00` from the GitHub API.
 
 | PR | Author | State | OpenClaw version worked on | Exact head | Rating | Current work / blocker |
 |---|---|---|---|---|---|---|
-| [#195358](https://github.com/openclaw/openclaw/pull/195358) fix: queued follow-up goes unanswered after a delayed /stop or /status | [@arcabotai](https://github.com/arcabotai) | open | `2026.11.1` | [`08e8a771e04e`](https://github.com/openclaw/openclaw/commit/08e8a771e04e5d248aaaea75665e453e55075b14) | 🦐 gold shrimp | ⏳ waiting on maintainer |
+| [#196215](https://github.com/openclaw/openclaw/pull/196215) fix(gateway): release agent databases removed by config reload | [@arcabotai](https://github.com/arcabotai) | open | `2026.11.2` | [`3c420cb84e28`](https://github.com/openclaw/openclaw/commit/3c420cb84e28b6aabf92069c360c13065e221b12) | 🧂 unranked krab | ⏳ waiting on author |
+| [#196089](https://github.com/openclaw/openclaw/pull/196089) fix: conversation listing with thousands of Slack conversations blocks the Gateway main thread | [@arcabotai](https://github.com/arcabotai) | open | `2026.11.2` | [`fc8428edde3a`](https://github.com/openclaw/openclaw/commit/fc8428edde3a21401eaf84b2dfadfed23bbc009e) | 🐚 platinum hermit | 👀 ready for maintainer look |
+| [#195900](https://github.com/openclaw/openclaw/pull/195900) fix: config reload with more than 128 agents floods clients with skills.changed events | [@arcabotai](https://github.com/arcabotai) | open | `2026.11.1` | [`bfa260bc3737`](https://github.com/openclaw/openclaw/commit/bfa260bc37374cfb6cda2310a3fe0153839b0b06) | 🐚 platinum hermit | 👀 ready for maintainer look |
+| [#195358](https://github.com/openclaw/openclaw/pull/195358) fix: queued follow-up goes unanswered after a delayed /stop or /status | [@arcabotai](https://github.com/arcabotai) | open | `2026.11.2` | [`dffb68ab5740`](https://github.com/openclaw/openclaw/commit/dffb68ab5740946e8b52ddbc78067346fd003df4) | not rated | — |
 | [#194540](https://github.com/openclaw/openclaw/pull/194540) fix: worker turns fail before inference when web search is offered | [@arcabotai](https://github.com/arcabotai) | merged | `2026.11.1` | [`b96f263d7758`](https://github.com/openclaw/openclaw/commit/b96f263d77582056e89fa49eae09b697e09caad7) | 🦞 diamond lobster | 👀 ready for maintainer look |
 | [#150660](https://github.com/openclaw/openclaw/pull/150660) improve: correct spelling typos in docs, comments, and an identifier | [@felirami](https://github.com/felirami) | closed | `2026.9.4` | [`b39fd8cdc280`](https://github.com/openclaw/openclaw/commit/b39fd8cdc280852df8c0a7fa19c5c2a3abaf6a9a) | 🦪 silver shellfish | 📣 needs proof |
 | [#123676](https://github.com/openclaw/openclaw/pull/123676) fix: spawned child prompt omits staged attachment file paths | [@felirami](https://github.com/felirami) | merged | `2026.8.1` | [`a4040009698d`](https://github.com/openclaw/openclaw/commit/a4040009698d300622536f59b9ba5de031b28c4f) | 🦞 diamond lobster | 👀 ready for maintainer look |
