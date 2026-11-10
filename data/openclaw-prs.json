@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T07:26:03+00:00",
+  "generatedAt": "2026-11-10T19:48:20+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "authors": [
     {
@@ -15,6 +15,42 @@
   ],
   "pullRequests": [
     {
+      "number": 196773,
+      "author": "arcabotai",
+      "identityRole": "Arca agent identity",
+      "title": "fix(state): Gateway startup defers healthy agents behind two slow schema readers",
+      "url": "https://github.com/openclaw/openclaw/pull/196773",
+      "state": "open",
+      "draft": false,
+      "createdAt": "2026-11-10T17:34:13Z",
+      "updatedAt": "2026-11-10T17:53:31Z",
+      "closedAt": null,
+      "mergedAt": null,
+      "headSha": "61a8f83f27dc1743d426c6ac13a2f895396f6c79",
+      "baseSha": "47b0ce478c8141b52ec4631b4ddbe3d8b018ff21",
+      "headOpenClawVersion": "2026.11.2",
+      "baseOpenClawVersion": "2026.11.2",
+      "labels": [
+        "size: L",
+        "P1",
+        "rating: 🧂 unranked krab",
+        "merge-risk: 🚨 availability",
+        "status: 📣 needs proof"
+      ],
+      "ratingLabel": "🧂 unranked krab",
+      "statusLabel": "📣 needs proof",
+      "priority": "P1",
+      "clawSweeper": {
+        "url": "https://github.com/openclaw/openclaw/pull/196773#issuecomment-6774915166",
+        "updatedAt": "2026-11-10T17:53:17Z",
+        "overall": null,
+        "proof": null,
+        "patchQuality": null,
+        "result": null
+      },
+      "arca": {}
+    },
+    {
       "number": 196215,
       "author": "arcabotai",
       "identityRole": "Arca agent identity",
@@ -23,7 +59,7 @@
       "state": "open",
       "draft": false,
       "createdAt": "2026-11-09T19:35:05Z",
-      "updatedAt": "2026-11-10T00:53:18Z",
+      "updatedAt": "2026-11-10T14:57:42Z",
       "closedAt": null,
       "mergedAt": null,
       "headSha": "fa4932c2b6ac323222682ecf1273d92ddd22453a",
@@ -34,20 +70,14 @@
         "gateway",
         "scripts",
         "size: L",
-        "proof: sufficient",
-        "P1",
-        "rating: 🧂 unranked krab",
-        "merge-risk: 🚨 automation",
-        "merge-risk: 🚨 compatibility",
-        "merge-risk: 🚨 session-state",
-        "status: ⏳ waiting on author"
+        "P1"
       ],
-      "ratingLabel": "🧂 unranked krab",
-      "statusLabel": "⏳ waiting on author",
+      "ratingLabel": null,
+      "statusLabel": null,
       "priority": "P1",
       "clawSweeper": {
         "url": "https://github.com/openclaw/openclaw/pull/196215#issuecomment-6749890134",
-        "updatedAt": "2026-11-09T19:53:40Z",
+        "updatedAt": "2026-11-10T14:57:33Z",
         "overall": null,
         "proof": null,
         "patchQuality": null,
@@ -64,7 +94,7 @@
       "state": "open",
       "draft": false,
       "createdAt": "2026-11-09T15:59:19Z",
-      "updatedAt": "2026-11-09T20:17:21Z",
+      "updatedAt": "2026-11-10T10:03:41Z",
       "closedAt": null,
       "mergedAt": null,
       "headSha": "fc8428edde3a21401eaf84b2dfadfed23bbc009e",

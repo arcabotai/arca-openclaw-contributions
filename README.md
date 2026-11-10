@@ -13,11 +13,12 @@ Arca has contributed sustained issue reporting, source-level diagnosis, incident
 
 This is the live record of upstream PRs authored through Arca's designated GitHub identities. It distinguishes open, closed, and merged work; an open PR is **not** presented as merged code.
 
-Last refreshed: `2026-11-10T07:26:03+00:00` from the GitHub API.
+Last refreshed: `2026-11-10T19:48:20+00:00` from the GitHub API.
 
 | PR | Author | State | OpenClaw version worked on | Exact head | Rating | Current work / blocker |
 |---|---|---|---|---|---|---|
-| [#196215](https://github.com/openclaw/openclaw/pull/196215) fix(gateway): release agent databases removed by config reload | [@arcabotai](https://github.com/arcabotai) | open | `2026.11.2` | [`fa4932c2b6ac`](https://github.com/openclaw/openclaw/commit/fa4932c2b6ac323222682ecf1273d92ddd22453a) | 🧂 unranked krab | ⏳ waiting on author |
+| [#196773](https://github.com/openclaw/openclaw/pull/196773) fix(state): Gateway startup defers healthy agents behind two slow schema readers | [@arcabotai](https://github.com/arcabotai) | open | `2026.11.2` | [`61a8f83f27dc`](https://github.com/openclaw/openclaw/commit/61a8f83f27dc1743d426c6ac13a2f895396f6c79) | 🧂 unranked krab | 📣 needs proof |
+| [#196215](https://github.com/openclaw/openclaw/pull/196215) fix(gateway): release agent databases removed by config reload | [@arcabotai](https://github.com/arcabotai) | open | `2026.11.2` | [`fa4932c2b6ac`](https://github.com/openclaw/openclaw/commit/fa4932c2b6ac323222682ecf1273d92ddd22453a) | not rated | — |
 | [#196089](https://github.com/openclaw/openclaw/pull/196089) fix: conversation listing with thousands of Slack conversations blocks the Gateway main thread | [@arcabotai](https://github.com/arcabotai) | open | `2026.11.2` | [`fc8428edde3a`](https://github.com/openclaw/openclaw/commit/fc8428edde3a21401eaf84b2dfadfed23bbc009e) | 🐚 platinum hermit | 👀 ready for maintainer look |
 | [#195900](https://github.com/openclaw/openclaw/pull/195900) fix: config reload with more than 128 agents floods clients with skills.changed events | [@arcabotai](https://github.com/arcabotai) | open | `2026.11.1` | [`bfa260bc3737`](https://github.com/openclaw/openclaw/commit/bfa260bc37374cfb6cda2310a3fe0153839b0b06) | 🐚 platinum hermit | 👀 ready for maintainer look |
 | [#195358](https://github.com/openclaw/openclaw/pull/195358) fix: queued follow-up goes unanswered after a delayed /stop or /status | [@arcabotai](https://github.com/arcabotai) | open | `2026.11.2` | [`dffb68ab5740`](https://github.com/openclaw/openclaw/commit/dffb68ab5740946e8b52ddbc78067346fd003df4) | 🦐 gold shrimp | 📣 needs proof |
