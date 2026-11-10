@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T22:27:34+00:00",
+  "generatedAt": "2026-11-10T07:26:03+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "authors": [
     {
@@ -23,11 +23,11 @@
       "state": "open",
       "draft": false,
       "createdAt": "2026-11-09T19:35:05Z",
-      "updatedAt": "2026-11-09T22:20:21Z",
+      "updatedAt": "2026-11-10T00:53:18Z",
       "closedAt": null,
       "mergedAt": null,
-      "headSha": "3c420cb84e28b6aabf92069c360c13065e221b12",
-      "baseSha": "d7f88abfaacfab0cecdf064c98853bf6be3ea3b1",
+      "headSha": "fa4932c2b6ac323222682ecf1273d92ddd22453a",
+      "baseSha": "006176e7a91b1f268699c40d3117a13474eed09e",
       "headOpenClawVersion": "2026.11.2",
       "baseOpenClawVersion": "2026.11.2",
       "labels": [
@@ -101,7 +101,7 @@
       "state": "open",
       "draft": false,
       "createdAt": "2026-11-09T10:27:05Z",
-      "updatedAt": "2026-11-09T10:43:02Z",
+      "updatedAt": "2026-11-10T04:55:17Z",
       "closedAt": null,
       "mergedAt": null,
       "headSha": "bfa260bc37374cfb6cda2310a3fe0153839b0b06",
@@ -120,7 +120,7 @@
       "priority": "P2",
       "clawSweeper": {
         "url": "https://github.com/openclaw/openclaw/pull/195900#issuecomment-6738021542",
-        "updatedAt": "2026-11-09T10:42:48Z",
+        "updatedAt": "2026-11-10T04:55:08Z",
         "overall": null,
         "proof": null,
         "patchQuality": null,
@@ -137,7 +137,7 @@
       "state": "open",
       "draft": false,
       "createdAt": "2026-11-08T19:07:26Z",
-      "updatedAt": "2026-11-09T22:10:23Z",
+      "updatedAt": "2026-11-09T22:54:53Z",
       "closedAt": null,
       "mergedAt": null,
       "headSha": "dffb68ab5740946e8b52ddbc78067346fd003df4",
@@ -147,14 +147,16 @@
       "labels": [
         "agents",
         "size: M",
-        "P1"
+        "P1",
+        "rating: 🦐 gold shrimp",
+        "status: 📣 needs proof"
       ],
-      "ratingLabel": null,
-      "statusLabel": null,
+      "ratingLabel": "🦐 gold shrimp",
+      "statusLabel": "📣 needs proof",
       "priority": "P1",
       "clawSweeper": {
         "url": "https://github.com/openclaw/openclaw/pull/195358#issuecomment-6725989563",
-        "updatedAt": "2026-11-09T10:06:42Z",
+        "updatedAt": "2026-11-09T22:53:39Z",
         "overall": null,
         "proof": null,
         "patchQuality": null,
