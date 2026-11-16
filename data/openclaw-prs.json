@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T06:40:56+00:00",
+  "generatedAt": "2026-11-16T22:13:12+00:00",
   "source": "https://github.com/openclaw/openclaw",
   "authors": [
     {
@@ -58,7 +58,7 @@
       "state": "open",
       "draft": false,
       "createdAt": "2026-11-09T19:35:05Z",
-      "updatedAt": "2026-11-11T11:40:00Z",
+      "updatedAt": "2026-11-16T20:11:15Z",
       "closedAt": null,
       "mergedAt": null,
       "headSha": "416ef5ca4d2e10c1b25325b221dd0b9faac28273",
@@ -79,7 +79,7 @@
       "priority": "P1",
       "clawSweeper": {
         "url": "https://github.com/openclaw/openclaw/pull/196215#issuecomment-6749890134",
-        "updatedAt": "2026-11-11T11:39:15Z",
+        "updatedAt": "2026-11-16T20:11:05Z",
         "overall": null,
         "proof": null,
         "patchQuality": null,
